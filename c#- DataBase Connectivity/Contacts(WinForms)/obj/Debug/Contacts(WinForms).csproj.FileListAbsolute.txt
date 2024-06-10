@@ -1,0 +1,16 @@
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\Contacts(WinForms)\bin\Debug\Contacts(WinForms).exe.config
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\Contacts(WinForms)\bin\Debug\Contacts(WinForms).exe
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\Contacts(WinForms)\bin\Debug\Contacts(WinForms).pdb
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\Contacts(WinForms)\bin\Debug\ContactsBusinessLayer.dll
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\Contacts(WinForms)\bin\Debug\ContactsDataAccessLayer.dll
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\Contacts(WinForms)\bin\Debug\ContactsBusinessLayer.pdb
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\Contacts(WinForms)\bin\Debug\ContactsDataAccessLayer.pdb
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\Contacts(WinForms)\obj\Debug\Contacts(WinForms).csproj.AssemblyReference.cache
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\Contacts(WinForms)\obj\Debug\Contacts_WinForms_.Properties.Resources.resources
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\Contacts(WinForms)\obj\Debug\Contacts(WinForms).csproj.GenerateResource.cache
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\Contacts(WinForms)\obj\Debug\Contacts(WinForms).csproj.CoreCompileInputs.cache
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\Contacts(WinForms)\obj\Debug\Contacts.EB14CD1C.Up2Date
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\Contacts(WinForms)\obj\Debug\Contacts(WinForms).exe
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\Contacts(WinForms)\obj\Debug\Contacts(WinForms).pdb
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\Contacts(WinForms)\obj\Debug\Contacts_WinForms_.frmShowContacts.resources
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\Contacts(WinForms)\obj\Debug\Contacts_WinForms_.frmAddContact.resources

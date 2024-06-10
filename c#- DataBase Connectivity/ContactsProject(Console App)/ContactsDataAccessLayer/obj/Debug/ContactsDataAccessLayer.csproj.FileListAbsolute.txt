@@ -1,0 +1,12 @@
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\Project(Contacts)\ContactsDataAccessLayer\bin\Debug\ContactsDataAccessLayer.dll
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\Project(Contacts)\ContactsDataAccessLayer\bin\Debug\ContactsDataAccessLayer.pdb
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\Project(Contacts)\ContactsDataAccessLayer\obj\Debug\ContactsDataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\Project(Contacts)\ContactsDataAccessLayer\obj\Debug\ContactsDataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\Project(Contacts)\ContactsDataAccessLayer\obj\Debug\ContactsDataAccessLayer.dll
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\Project(Contacts)\ContactsDataAccessLayer\obj\Debug\ContactsDataAccessLayer.pdb
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\ContactsProject\Project(Contacts)\ContactsDataAccessLayer\bin\Debug\ContactsDataAccessLayer.dll
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\ContactsProject\Project(Contacts)\ContactsDataAccessLayer\bin\Debug\ContactsDataAccessLayer.pdb
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\ContactsProject\Project(Contacts)\ContactsDataAccessLayer\obj\Debug\ContactsDataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\ContactsProject\Project(Contacts)\ContactsDataAccessLayer\obj\Debug\ContactsDataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\ContactsProject\Project(Contacts)\ContactsDataAccessLayer\obj\Debug\ContactsDataAccessLayer.dll
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\ContactsProject\Project(Contacts)\ContactsDataAccessLayer\obj\Debug\ContactsDataAccessLayer.pdb

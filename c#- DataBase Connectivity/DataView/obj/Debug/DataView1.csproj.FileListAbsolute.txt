@@ -1,0 +1,7 @@
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\DataView\bin\Debug\DataView.exe.config
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\DataView\bin\Debug\DataView.exe
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\DataView\bin\Debug\DataView.pdb
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\DataView\obj\Debug\DataView1.csproj.AssemblyReference.cache
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\DataView\obj\Debug\DataView1.csproj.CoreCompileInputs.cache
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\DataView\obj\Debug\DataView.exe
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\DataView\obj\Debug\DataView.pdb

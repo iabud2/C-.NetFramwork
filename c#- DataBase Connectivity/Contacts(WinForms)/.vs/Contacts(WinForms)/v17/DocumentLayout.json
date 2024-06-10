@@ -1,0 +1,97 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\iabud\\Desktop\\me\\c#\\c#- DataBase Connectivity\\Contacts(WinForms)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3C0BD88B-8483-49BF-A0CE-9EEC76AE6BFA}|Contacts(WinForms).csproj|C:\\Users\\iabud\\Desktop\\me\\c#\\c#- DataBase Connectivity\\Contacts(WinForms)\\frmshowcontacts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3C0BD88B-8483-49BF-A0CE-9EEC76AE6BFA}|Contacts(WinForms).csproj|solutionrelative:frmshowcontacts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C0BD88B-8483-49BF-A0CE-9EEC76AE6BFA}|Contacts(WinForms).csproj|C:\\Users\\iabud\\Desktop\\me\\c#\\c#- DataBase Connectivity\\Contacts(WinForms)\\frmshowcontacts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C0BD88B-8483-49BF-A0CE-9EEC76AE6BFA}|Contacts(WinForms).csproj|solutionrelative:frmshowcontacts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C0BD88B-8483-49BF-A0CE-9EEC76AE6BFA}|Contacts(WinForms).csproj|C:\\Users\\iabud\\Desktop\\me\\c#\\c#- DataBase Connectivity\\Contacts(WinForms)\\frmaddcontact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C0BD88B-8483-49BF-A0CE-9EEC76AE6BFA}|Contacts(WinForms).csproj|solutionrelative:frmaddcontact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C0BD88B-8483-49BF-A0CE-9EEC76AE6BFA}|Contacts(WinForms).csproj|c:\\users\\iabud\\desktop\\me\\c#\\c#- database connectivity\\contacts(winforms)\\frmaddcontact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3C0BD88B-8483-49BF-A0CE-9EEC76AE6BFA}|Contacts(WinForms).csproj|solutionrelative:frmaddcontact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmAddContact.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\iabud\\Desktop\\me\\c#\\c#- DataBase Connectivity\\Contacts(WinForms)\\frmAddContact.cs",
+              "RelativeDocumentMoniker": "frmAddContact.cs",
+              "ToolTip": "C:\\Users\\iabud\\Desktop\\me\\c#\\c#- DataBase Connectivity\\Contacts(WinForms)\\frmAddContact.cs [Design]",
+              "RelativeToolTip": "frmAddContact.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T06:14:33.046Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmAddContact.cs",
+              "DocumentMoniker": "C:\\Users\\iabud\\Desktop\\me\\c#\\c#- DataBase Connectivity\\Contacts(WinForms)\\frmAddContact.cs",
+              "RelativeDocumentMoniker": "frmAddContact.cs",
+              "ToolTip": "C:\\Users\\iabud\\Desktop\\me\\c#\\c#- DataBase Connectivity\\Contacts(WinForms)\\frmAddContact.cs",
+              "RelativeToolTip": "frmAddContact.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAmwCUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T21:21:27.641Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmShowContacts.cs",
+              "DocumentMoniker": "C:\\Users\\iabud\\Desktop\\me\\c#\\c#- DataBase Connectivity\\Contacts(WinForms)\\frmShowContacts.cs",
+              "RelativeDocumentMoniker": "frmShowContacts.cs",
+              "ToolTip": "C:\\Users\\iabud\\Desktop\\me\\c#\\c#- DataBase Connectivity\\Contacts(WinForms)\\frmShowContacts.cs",
+              "RelativeToolTip": "frmShowContacts.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T04:00:28.743Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmShowContacts.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\iabud\\Desktop\\me\\c#\\c#- DataBase Connectivity\\Contacts(WinForms)\\frmShowContacts.cs",
+              "RelativeDocumentMoniker": "frmShowContacts.cs",
+              "ToolTip": "C:\\Users\\iabud\\Desktop\\me\\c#\\c#- DataBase Connectivity\\Contacts(WinForms)\\frmShowContacts.cs [Design]",
+              "RelativeToolTip": "frmShowContacts.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T03:55:53.502Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

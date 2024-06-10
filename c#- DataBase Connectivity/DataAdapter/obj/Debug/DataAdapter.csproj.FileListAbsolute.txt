@@ -1,0 +1,7 @@
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\DataAdapter\bin\Debug\DataAdapter.exe.config
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\DataAdapter\bin\Debug\DataAdapter.exe
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\DataAdapter\bin\Debug\DataAdapter.pdb
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\DataAdapter\obj\Debug\DataAdapter.csproj.AssemblyReference.cache
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\DataAdapter\obj\Debug\DataAdapter.csproj.CoreCompileInputs.cache
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\DataAdapter\obj\Debug\DataAdapter.exe
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\DataAdapter\obj\Debug\DataAdapter.pdb

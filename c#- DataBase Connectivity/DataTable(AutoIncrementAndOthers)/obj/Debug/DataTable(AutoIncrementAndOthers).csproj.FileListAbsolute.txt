@@ -1,0 +1,7 @@
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\DataTable(AutoIncrementAndOthers)\bin\Debug\DataTable(AutoIncrementAndOthers).exe.config
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\DataTable(AutoIncrementAndOthers)\bin\Debug\DataTable(AutoIncrementAndOthers).exe
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\DataTable(AutoIncrementAndOthers)\bin\Debug\DataTable(AutoIncrementAndOthers).pdb
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\DataTable(AutoIncrementAndOthers)\obj\Debug\DataTable(AutoIncrementAndOthers).csproj.AssemblyReference.cache
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\DataTable(AutoIncrementAndOthers)\obj\Debug\DataTable(AutoIncrementAndOthers).csproj.CoreCompileInputs.cache
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\DataTable(AutoIncrementAndOthers)\obj\Debug\DataTable(AutoIncrementAndOthers).exe
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\DataTable(AutoIncrementAndOthers)\obj\Debug\DataTable(AutoIncrementAndOthers).pdb

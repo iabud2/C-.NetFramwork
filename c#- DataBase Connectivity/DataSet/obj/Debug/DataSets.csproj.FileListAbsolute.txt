@@ -1,0 +1,7 @@
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\DataSet\bin\Debug\DataSet.exe.config
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\DataSet\bin\Debug\DataSet.exe
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\DataSet\bin\Debug\DataSet.pdb
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\DataSet\obj\Debug\DataSets.csproj.AssemblyReference.cache
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\DataSet\obj\Debug\DataSets.csproj.CoreCompileInputs.cache
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\DataSet\obj\Debug\DataSet.exe
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\DataSet\obj\Debug\DataSet.pdb

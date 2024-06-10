@@ -1,0 +1,36 @@
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\Project(Contacts)\bin\Debug\Project(Contacts).exe.config
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\Project(Contacts)\bin\Debug\Project(Contacts).exe
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\Project(Contacts)\bin\Debug\Project(Contacts).pdb
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\Project(Contacts)\bin\Debug\ContactsBusinessLayer.dll
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\Project(Contacts)\bin\Debug\ContactsDataAccessLayer.dll
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\Project(Contacts)\bin\Debug\ContactsBusinessLayer.pdb
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\Project(Contacts)\bin\Debug\ContactsDataAccessLayer.pdb
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\Project(Contacts)\obj\Debug\ContactsConsolApp-PresentationLayer.csproj.AssemblyReference.cache
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\Project(Contacts)\obj\Debug\ContactsConsolApp-PresentationLayer.csproj.CoreCompileInputs.cache
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\Project(Contacts)\obj\Debug\Contacts.558F1E09.Up2Date
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\Project(Contacts)\obj\Debug\Project(Contacts).exe
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\Project(Contacts)\obj\Debug\Project(Contacts).pdb
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\ContactsProject\Project(Contacts)\obj\Debug\ContactsConsolApp-PresentationLayer.csproj.AssemblyReference.cache
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\ContactsProject\Project(Contacts)\obj\Debug\ContactsConsolApp-PresentationLayer.csproj.CoreCompileInputs.cache
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\ContactsProject\Project(Contacts)\obj\Debug\Project(Contacts).exe
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\ContactsProject\Project(Contacts)\obj\Debug\Project(Contacts).pdb
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\ContactsProject\Project(Contacts)\bin\Debug\Project(Contacts).exe.config
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\ContactsProject\Project(Contacts)\bin\Debug\Project(Contacts).exe
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\ContactsProject\Project(Contacts)\bin\Debug\Project(Contacts).pdb
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\ContactsProject\Project(Contacts)\bin\Debug\ContactsBusinessLayer.dll
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\ContactsProject\Project(Contacts)\bin\Debug\ContactsDataAccessLayer.dll
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\ContactsProject\Project(Contacts)\bin\Debug\ContactsBusinessLayer.pdb
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\ContactsProject\Project(Contacts)\bin\Debug\ContactsDataAccessLayer.pdb
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\ContactsProject\Project(Contacts)\obj\Debug\Contacts.558F1E09.Up2Date
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\ContactsProject(Console App)\bin\Debug\Project(Contacts).exe.config
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\ContactsProject(Console App)\bin\Debug\Project(Contacts).exe
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\ContactsProject(Console App)\bin\Debug\Project(Contacts).pdb
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\ContactsProject(Console App)\bin\Debug\ContactsBusinessLayer.dll
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\ContactsProject(Console App)\bin\Debug\ContactsDataAccessLayer.dll
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\ContactsProject(Console App)\bin\Debug\ContactsBusinessLayer.pdb
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\ContactsProject(Console App)\bin\Debug\ContactsDataAccessLayer.pdb
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\ContactsProject(Console App)\obj\Debug\ContactsConsolApp-PresentationLayer.csproj.AssemblyReference.cache
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\ContactsProject(Console App)\obj\Debug\ContactsConsolApp-PresentationLayer.csproj.CoreCompileInputs.cache
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\ContactsProject(Console App)\obj\Debug\Contacts.558F1E09.Up2Date
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\ContactsProject(Console App)\obj\Debug\Project(Contacts).exe
+C:\Users\iabud\Desktop\me\c#\c#- DataBase Connectivity\ContactsProject(Console App)\obj\Debug\Project(Contacts).pdb

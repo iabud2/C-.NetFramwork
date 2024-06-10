@@ -1,0 +1,7 @@
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 1 C#\bin\Debug\syntax 1 C#.exe.config
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 1 C#\bin\Debug\syntax 1 C#.exe
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 1 C#\bin\Debug\syntax 1 C#.pdb
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 1 C#\obj\Debug\syntax 1 C#.csproj.AssemblyReference.cache
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 1 C#\obj\Debug\syntax 1 C#.csproj.CoreCompileInputs.cache
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 1 C#\obj\Debug\syntax 1 C#.exe
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 1 C#\obj\Debug\syntax 1 C#.pdb

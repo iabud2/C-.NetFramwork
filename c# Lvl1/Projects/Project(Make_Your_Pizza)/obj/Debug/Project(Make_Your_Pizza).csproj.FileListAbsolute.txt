@@ -1,0 +1,10 @@
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\Project(Make_Your_Pizza)\bin\Debug\Project(Make_Your_Pizza).exe.config
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\Project(Make_Your_Pizza)\bin\Debug\Project(Make_Your_Pizza).exe
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\Project(Make_Your_Pizza)\bin\Debug\Project(Make_Your_Pizza).pdb
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\Project(Make_Your_Pizza)\obj\Debug\Project(Make_Your_Pizza).csproj.AssemblyReference.cache
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\Project(Make_Your_Pizza)\obj\Debug\Project_Make_Your_Pizza_.Form1.resources
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\Project(Make_Your_Pizza)\obj\Debug\Project_Make_Your_Pizza_.Properties.Resources.resources
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\Project(Make_Your_Pizza)\obj\Debug\Project(Make_Your_Pizza).csproj.GenerateResource.cache
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\Project(Make_Your_Pizza)\obj\Debug\Project(Make_Your_Pizza).csproj.CoreCompileInputs.cache
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\Project(Make_Your_Pizza)\obj\Debug\Project(Make_Your_Pizza).exe
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\Project(Make_Your_Pizza)\obj\Debug\Project(Make_Your_Pizza).pdb

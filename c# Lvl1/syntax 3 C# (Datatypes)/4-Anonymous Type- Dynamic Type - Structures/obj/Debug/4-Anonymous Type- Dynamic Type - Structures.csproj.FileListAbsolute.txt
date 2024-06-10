@@ -1,0 +1,7 @@
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 3 C# (Datatypes)\4-Anonymous Type- Dynamic Type - Structures\bin\Debug\4-Anonymous Type- Dynamic Type - Structures.exe.config
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 3 C# (Datatypes)\4-Anonymous Type- Dynamic Type - Structures\bin\Debug\4-Anonymous Type- Dynamic Type - Structures.exe
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 3 C# (Datatypes)\4-Anonymous Type- Dynamic Type - Structures\bin\Debug\4-Anonymous Type- Dynamic Type - Structures.pdb
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 3 C# (Datatypes)\4-Anonymous Type- Dynamic Type - Structures\obj\Debug\4-Anonymous Type- Dynamic Type - Structures.csproj.AssemblyReference.cache
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 3 C# (Datatypes)\4-Anonymous Type- Dynamic Type - Structures\obj\Debug\4-Anonymous Type- Dynamic Type - Structures.csproj.CoreCompileInputs.cache
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 3 C# (Datatypes)\4-Anonymous Type- Dynamic Type - Structures\obj\Debug\4-Anonymous Type- Dynamic Type - Structures.exe
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 3 C# (Datatypes)\4-Anonymous Type- Dynamic Type - Structures\obj\Debug\4-Anonymous Type- Dynamic Type - Structures.pdb

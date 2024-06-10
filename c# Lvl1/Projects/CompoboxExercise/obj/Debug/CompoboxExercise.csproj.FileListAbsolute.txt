@@ -1,0 +1,10 @@
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\CompoboxExercise\bin\Debug\CompoboxExercise.exe.config
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\CompoboxExercise\bin\Debug\CompoboxExercise.exe
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\CompoboxExercise\bin\Debug\CompoboxExercise.pdb
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\CompoboxExercise\obj\Debug\CompoboxExercise.csproj.AssemblyReference.cache
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\CompoboxExercise\obj\Debug\CompoboxExercise.Form1.resources
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\CompoboxExercise\obj\Debug\CompoboxExercise.Properties.Resources.resources
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\CompoboxExercise\obj\Debug\CompoboxExercise.csproj.GenerateResource.cache
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\CompoboxExercise\obj\Debug\CompoboxExercise.csproj.CoreCompileInputs.cache
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\CompoboxExercise\obj\Debug\CompoboxExercise.exe
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\CompoboxExercise\obj\Debug\CompoboxExercise.pdb

@@ -1,0 +1,14 @@
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\Project(tictactoe)\bin\Debug\Project(tictactoe).exe.config
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\Project(tictactoe)\bin\Debug\Project(tictactoe).exe
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\Project(tictactoe)\bin\Debug\Project(tictactoe).pdb
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\Project(tictactoe)\obj\Debug\Project(tictactoe).csproj.AssemblyReference.cache
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\Project(tictactoe)\obj\Debug\Project_tictactoe_.Form1.resources
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\Project(tictactoe)\obj\Debug\Project_tictactoe_.Properties.Resources.resources
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\Project(tictactoe)\obj\Debug\Project(tictactoe).csproj.GenerateResource.cache
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\Project(tictactoe)\obj\Debug\Project(tictactoe).csproj.CoreCompileInputs.cache
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\Project(tictactoe)\obj\Debug\Project(tictactoe).exe
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\Project(tictactoe)\obj\Debug\Project(tictactoe).pdb
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\Project(tictactoe)\bin\Debug\Project(tictactoe).exe.manifest
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\Project(tictactoe)\bin\Debug\Project(tictactoe).application
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\Project(tictactoe)\obj\Debug\Project(tictactoe).exe.manifest
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\Project(tictactoe)\obj\Debug\Project(tictactoe).application

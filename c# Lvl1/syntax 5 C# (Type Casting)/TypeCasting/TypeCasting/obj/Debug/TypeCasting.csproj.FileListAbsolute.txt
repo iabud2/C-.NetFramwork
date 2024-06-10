@@ -1,0 +1,7 @@
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 5 C# (Type Casting)\TypeCasting\TypeCasting\bin\Debug\TypeCasting.exe.config
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 5 C# (Type Casting)\TypeCasting\TypeCasting\bin\Debug\TypeCasting.exe
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 5 C# (Type Casting)\TypeCasting\TypeCasting\bin\Debug\TypeCasting.pdb
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 5 C# (Type Casting)\TypeCasting\TypeCasting\obj\Debug\TypeCasting.csproj.AssemblyReference.cache
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 5 C# (Type Casting)\TypeCasting\TypeCasting\obj\Debug\TypeCasting.csproj.CoreCompileInputs.cache
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 5 C# (Type Casting)\TypeCasting\TypeCasting\obj\Debug\TypeCasting.exe
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 5 C# (Type Casting)\TypeCasting\TypeCasting\obj\Debug\TypeCasting.pdb

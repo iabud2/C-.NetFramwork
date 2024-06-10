@@ -1,0 +1,7 @@
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 3 C# (Datatypes)\Enums\bin\Debug\Enums.exe.config
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 3 C# (Datatypes)\Enums\bin\Debug\Enums.exe
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 3 C# (Datatypes)\Enums\bin\Debug\Enums.pdb
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 3 C# (Datatypes)\Enums\obj\Debug\Enums.csproj.AssemblyReference.cache
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 3 C# (Datatypes)\Enums\obj\Debug\Enums.csproj.CoreCompileInputs.cache
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 3 C# (Datatypes)\Enums\obj\Debug\Enums.exe
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 3 C# (Datatypes)\Enums\obj\Debug\Enums.pdb

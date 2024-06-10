@@ -1,0 +1,7 @@
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 11 C# (Exceptions)\bin\Debug\syntax 11 C# (Exceptions).exe.config
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 11 C# (Exceptions)\bin\Debug\syntax 11 C# (Exceptions).exe
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 11 C# (Exceptions)\bin\Debug\syntax 11 C# (Exceptions).pdb
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 11 C# (Exceptions)\obj\Debug\syntax 11 C# (Exceptions).csproj.AssemblyReference.cache
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 11 C# (Exceptions)\obj\Debug\syntax 11 C# (Exceptions).csproj.CoreCompileInputs.cache
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 11 C# (Exceptions)\obj\Debug\syntax 11 C# (Exceptions).exe
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 11 C# (Exceptions)\obj\Debug\syntax 11 C# (Exceptions).pdb

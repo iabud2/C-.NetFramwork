@@ -1,0 +1,7 @@
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 6 C# (User Inputs & Operators)\UserInputs&Operators\bin\Debug\UserInputs&Operators.exe.config
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 6 C# (User Inputs & Operators)\UserInputs&Operators\bin\Debug\UserInputs&Operators.exe
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 6 C# (User Inputs & Operators)\UserInputs&Operators\bin\Debug\UserInputs&Operators.pdb
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 6 C# (User Inputs & Operators)\UserInputs&Operators\obj\Debug\UserInputs&Operators.csproj.AssemblyReference.cache
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 6 C# (User Inputs & Operators)\UserInputs&Operators\obj\Debug\UserInputs&Operators.csproj.CoreCompileInputs.cache
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 6 C# (User Inputs & Operators)\UserInputs&Operators\obj\Debug\UserInputs&Operators.exe
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 6 C# (User Inputs & Operators)\UserInputs&Operators\obj\Debug\UserInputs&Operators.pdb

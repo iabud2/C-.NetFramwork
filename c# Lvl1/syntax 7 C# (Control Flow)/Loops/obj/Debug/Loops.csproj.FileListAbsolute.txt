@@ -1,0 +1,7 @@
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 7 C# (Control Flow)\Loops\bin\Debug\Loops.exe.config
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 7 C# (Control Flow)\Loops\bin\Debug\Loops.exe
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 7 C# (Control Flow)\Loops\bin\Debug\Loops.pdb
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 7 C# (Control Flow)\Loops\obj\Debug\Loops.csproj.AssemblyReference.cache
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 7 C# (Control Flow)\Loops\obj\Debug\Loops.csproj.CoreCompileInputs.cache
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 7 C# (Control Flow)\Loops\obj\Debug\Loops.exe
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 7 C# (Control Flow)\Loops\obj\Debug\Loops.pdb

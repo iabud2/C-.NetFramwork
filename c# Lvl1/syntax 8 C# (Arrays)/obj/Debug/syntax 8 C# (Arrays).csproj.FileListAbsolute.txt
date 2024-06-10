@@ -1,0 +1,7 @@
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 8 C# (Arrays)\bin\Debug\syntax 8 C# (Arrays).exe.config
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 8 C# (Arrays)\bin\Debug\syntax 8 C# (Arrays).exe
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 8 C# (Arrays)\bin\Debug\syntax 8 C# (Arrays).pdb
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 8 C# (Arrays)\obj\Debug\syntax 8 C# (Arrays).csproj.AssemblyReference.cache
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 8 C# (Arrays)\obj\Debug\syntax 8 C# (Arrays).csproj.CoreCompileInputs.cache
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 8 C# (Arrays)\obj\Debug\syntax 8 C# (Arrays).exe
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 8 C# (Arrays)\obj\Debug\syntax 8 C# (Arrays).pdb

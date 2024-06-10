@@ -1,0 +1,7 @@
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 9 C# (C# Math)\bin\Debug\syntax 9 C# (C# Math).exe.config
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 9 C# (C# Math)\bin\Debug\syntax 9 C# (C# Math).exe
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 9 C# (C# Math)\bin\Debug\syntax 9 C# (C# Math).pdb
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 9 C# (C# Math)\obj\Debug\syntax 9 C# (C# Math).csproj.AssemblyReference.cache
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 9 C# (C# Math)\obj\Debug\syntax 9 C# (C# Math).csproj.CoreCompileInputs.cache
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 9 C# (C# Math)\obj\Debug\syntax 9 C# (C# Math).exe
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 9 C# (C# Math)\obj\Debug\syntax 9 C# (C# Math).pdb

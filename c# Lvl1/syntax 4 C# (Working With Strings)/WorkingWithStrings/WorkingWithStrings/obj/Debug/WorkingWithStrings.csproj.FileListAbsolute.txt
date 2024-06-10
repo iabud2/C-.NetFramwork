@@ -1,0 +1,7 @@
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 4 C# (Working With Strings)\WorkingWithStrings\WorkingWithStrings\bin\Debug\WorkingWithStrings.exe.config
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 4 C# (Working With Strings)\WorkingWithStrings\WorkingWithStrings\bin\Debug\WorkingWithStrings.exe
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 4 C# (Working With Strings)\WorkingWithStrings\WorkingWithStrings\bin\Debug\WorkingWithStrings.pdb
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 4 C# (Working With Strings)\WorkingWithStrings\WorkingWithStrings\obj\Debug\WorkingWithStrings.csproj.AssemblyReference.cache
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 4 C# (Working With Strings)\WorkingWithStrings\WorkingWithStrings\obj\Debug\WorkingWithStrings.csproj.CoreCompileInputs.cache
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 4 C# (Working With Strings)\WorkingWithStrings\WorkingWithStrings\obj\Debug\WorkingWithStrings.exe
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 4 C# (Working With Strings)\WorkingWithStrings\WorkingWithStrings\obj\Debug\WorkingWithStrings.pdb

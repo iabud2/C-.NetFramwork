@@ -1,0 +1,45 @@
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Project1\bin\Debug\Project1.exe.config
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Project1\bin\Debug\Project1.exe
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Project1\bin\Debug\Project1.pdb
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Project1\obj\Debug\Project1.csproj.AssemblyReference.cache
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Project1\obj\Debug\Project1.Form1.resources
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Project1\obj\Debug\Project1.Properties.Resources.resources
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Project1\obj\Debug\Project1.csproj.GenerateResource.cache
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Project1\obj\Debug\Project1.csproj.CoreCompileInputs.cache
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Project1\obj\Debug\Project1.exe
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Project1\obj\Debug\Project1.pdb
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Project1\obj\Debug\Project1.frmMain.resources
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Project1\obj\Debug\Project1.frmMessageBox.resources
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Project1\obj\Debug\Project1.frmCheckBox.resources
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\Practice Project\bin\Debug\Project1.exe.config
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\Practice Project\bin\Debug\Project1.exe
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\Practice Project\bin\Debug\Project1.pdb
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\Practice Project\obj\Debug\Project1.csproj.AssemblyReference.cache
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\Practice Project\obj\Debug\Project1.Form1.resources
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\Practice Project\obj\Debug\Project1.frmCheckBox.resources
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\Practice Project\obj\Debug\Project1.frmMain.resources
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\Practice Project\obj\Debug\Project1.frmMessageBox.resources
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\Practice Project\obj\Debug\Project1.frmMoreTextBox.resources
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\Practice Project\obj\Debug\Project1.Properties.Resources.resources
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\Practice Project\obj\Debug\Project1.csproj.GenerateResource.cache
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\Practice Project\obj\Debug\Project1.csproj.CoreCompileInputs.cache
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\Practice Project\obj\Debug\Project1.exe
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\Practice Project\obj\Debug\Project1.pdb
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\Practice Project\obj\Debug\Project1.frmpbox.resources
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\Practice Project\obj\Debug\Project1.frmPictureBoxExercise.resources
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\Practice Project\obj\Debug\Project1.frmDrawing.resources
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\Practice Project\obj\Debug\Project1.frmMtb_lnklbl_Cb.resources
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\Practice Project\obj\Debug\Project1.frmCheckedListBox.resources
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\Practice Project\obj\Debug\Project1.frmDateTimePicker.resources
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\Practice Project\obj\Debug\Project1.frmMonthCalender.resources
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\Practice Project\obj\Debug\Project1.frmTimer.resources
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\Practice Project\obj\Debug\Project1.frmTreeView.resources
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\Practice Project\obj\Debug\Project1.frmProgressBar.resources
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\Practice Project\obj\Debug\Project1.frmListView.resources
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\Practice Project\obj\Debug\Project1.frmErrorProvider.resources
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\Practice Project\obj\Debug\Project1.frmTrackBar.resources
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\Practice Project\obj\Debug\Project1.NumericUpDown.resources
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\Practice Project\obj\Debug\Project1.TabControl.resources
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\Practice Project\obj\Debug\Project1.frmPanel.resources
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\Practice Project\obj\Debug\Project1.frmDialogs.resources
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\Projects\Practice Project\obj\Debug\Project1.frmContextMenue.resources

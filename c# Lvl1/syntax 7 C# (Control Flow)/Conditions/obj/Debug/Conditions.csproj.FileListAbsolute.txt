@@ -1,0 +1,7 @@
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 7 C# (Control Flow)\Conditions\bin\Debug\Conditions.exe.config
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 7 C# (Control Flow)\Conditions\bin\Debug\Conditions.exe
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 7 C# (Control Flow)\Conditions\bin\Debug\Conditions.pdb
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 7 C# (Control Flow)\Conditions\obj\Debug\Conditions.csproj.AssemblyReference.cache
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 7 C# (Control Flow)\Conditions\obj\Debug\Conditions.csproj.CoreCompileInputs.cache
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 7 C# (Control Flow)\Conditions\obj\Debug\Conditions.exe
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 7 C# (Control Flow)\Conditions\obj\Debug\Conditions.pdb

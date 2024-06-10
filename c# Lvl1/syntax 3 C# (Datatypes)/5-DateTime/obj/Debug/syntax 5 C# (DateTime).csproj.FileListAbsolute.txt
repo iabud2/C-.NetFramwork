@@ -1,0 +1,14 @@
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 3 C# (Datatypes)\syntax 5 C# (DateTime)\bin\Debug\syntax 5 C# (DateTime).exe.config
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 3 C# (Datatypes)\syntax 5 C# (DateTime)\bin\Debug\syntax 5 C# (DateTime).exe
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 3 C# (Datatypes)\syntax 5 C# (DateTime)\bin\Debug\syntax 5 C# (DateTime).pdb
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 3 C# (Datatypes)\syntax 5 C# (DateTime)\obj\Debug\syntax 5 C# (DateTime).csproj.AssemblyReference.cache
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 3 C# (Datatypes)\syntax 5 C# (DateTime)\obj\Debug\syntax 5 C# (DateTime).csproj.CoreCompileInputs.cache
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 3 C# (Datatypes)\syntax 5 C# (DateTime)\obj\Debug\syntax 5 C# (DateTime).exe
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 3 C# (Datatypes)\syntax 5 C# (DateTime)\obj\Debug\syntax 5 C# (DateTime).pdb
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 3 C# (Datatypes)\5 syntax 5 C# (DateTime)\bin\Debug\syntax 5 C# (DateTime).exe.config
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 3 C# (Datatypes)\5 syntax 5 C# (DateTime)\bin\Debug\syntax 5 C# (DateTime).exe
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 3 C# (Datatypes)\5 syntax 5 C# (DateTime)\bin\Debug\syntax 5 C# (DateTime).pdb
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 3 C# (Datatypes)\5 syntax 5 C# (DateTime)\obj\Debug\syntax 5 C# (DateTime).csproj.AssemblyReference.cache
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 3 C# (Datatypes)\5 syntax 5 C# (DateTime)\obj\Debug\syntax 5 C# (DateTime).csproj.CoreCompileInputs.cache
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 3 C# (Datatypes)\5 syntax 5 C# (DateTime)\obj\Debug\syntax 5 C# (DateTime).exe
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 3 C# (Datatypes)\5 syntax 5 C# (DateTime)\obj\Debug\syntax 5 C# (DateTime).pdb

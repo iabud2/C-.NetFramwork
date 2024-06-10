@@ -1,0 +1,15 @@
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 12 C#(Random Function in c#)\RandomFunction\obj\Debug\net8.0\RandomFunction.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 12 C#(Random Function in c#)\RandomFunction\obj\Debug\net8.0\RandomFunction.AssemblyInfoInputs.cache
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 12 C#(Random Function in c#)\RandomFunction\obj\Debug\net8.0\RandomFunction.AssemblyInfo.cs
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 12 C#(Random Function in c#)\RandomFunction\obj\Debug\net8.0\RandomFunction.csproj.CoreCompileInputs.cache
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 12 C#(Random Function in c#)\RandomFunction\obj\Debug\net8.0\RandomFunction.sourcelink.json
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 12 C#(Random Function in c#)\RandomFunction\bin\Debug\net8.0\RandomFunction.exe
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 12 C#(Random Function in c#)\RandomFunction\bin\Debug\net8.0\RandomFunction.deps.json
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 12 C#(Random Function in c#)\RandomFunction\bin\Debug\net8.0\RandomFunction.runtimeconfig.json
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 12 C#(Random Function in c#)\RandomFunction\bin\Debug\net8.0\RandomFunction.dll
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 12 C#(Random Function in c#)\RandomFunction\bin\Debug\net8.0\RandomFunction.pdb
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 12 C#(Random Function in c#)\RandomFunction\obj\Debug\net8.0\RandomFunction.dll
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 12 C#(Random Function in c#)\RandomFunction\obj\Debug\net8.0\refint\RandomFunction.dll
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 12 C#(Random Function in c#)\RandomFunction\obj\Debug\net8.0\RandomFunction.pdb
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 12 C#(Random Function in c#)\RandomFunction\obj\Debug\net8.0\RandomFunction.genruntimeconfig.cache
+C:\Users\iabud\Desktop\me\c#\c# Lvl1\syntax 12 C#(Random Function in c#)\RandomFunction\obj\Debug\net8.0\ref\RandomFunction.dll

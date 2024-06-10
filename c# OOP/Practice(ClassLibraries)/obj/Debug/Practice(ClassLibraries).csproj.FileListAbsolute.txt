@@ -1,0 +1,10 @@
+C:\Users\iabud\Desktop\me\c#\c# OOP\Practice(ClassLibraries)\bin\Debug\Practice(ClassLibraries).exe.config
+C:\Users\iabud\Desktop\me\c#\c# OOP\Practice(ClassLibraries)\bin\Debug\Practice(ClassLibraries).exe
+C:\Users\iabud\Desktop\me\c#\c# OOP\Practice(ClassLibraries)\bin\Debug\Practice(ClassLibraries).pdb
+C:\Users\iabud\Desktop\me\c#\c# OOP\Practice(ClassLibraries)\obj\Debug\Practice(ClassLibraries).csproj.AssemblyReference.cache
+C:\Users\iabud\Desktop\me\c#\c# OOP\Practice(ClassLibraries)\obj\Debug\Practice(ClassLibraries).csproj.CoreCompileInputs.cache
+C:\Users\iabud\Desktop\me\c#\c# OOP\Practice(ClassLibraries)\obj\Debug\Practice(ClassLibraries).exe
+C:\Users\iabud\Desktop\me\c#\c# OOP\Practice(ClassLibraries)\obj\Debug\Practice(ClassLibraries).pdb
+C:\Users\iabud\Desktop\me\c#\c# OOP\Practice(ClassLibraries)\bin\Debug\CarsClassLibrary.dll
+C:\Users\iabud\Desktop\me\c#\c# OOP\Practice(ClassLibraries)\bin\Debug\CarsClassLibrary.pdb
+C:\Users\iabud\Desktop\me\c#\c# OOP\Practice(ClassLibraries)\obj\Debug\Practice.7EC4977E.Up2Date

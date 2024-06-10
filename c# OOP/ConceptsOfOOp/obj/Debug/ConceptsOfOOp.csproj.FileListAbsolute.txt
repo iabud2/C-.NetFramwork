@@ -1,0 +1,7 @@
+C:\Users\iabud\Desktop\me\c#\c# OOP\ConceptsOfOOp\bin\Debug\ConceptsOfOOp.exe.config
+C:\Users\iabud\Desktop\me\c#\c# OOP\ConceptsOfOOp\bin\Debug\ConceptsOfOOp.exe
+C:\Users\iabud\Desktop\me\c#\c# OOP\ConceptsOfOOp\bin\Debug\ConceptsOfOOp.pdb
+C:\Users\iabud\Desktop\me\c#\c# OOP\ConceptsOfOOp\obj\Debug\ConceptsOfOOp.csproj.AssemblyReference.cache
+C:\Users\iabud\Desktop\me\c#\c# OOP\ConceptsOfOOp\obj\Debug\ConceptsOfOOp.csproj.CoreCompileInputs.cache
+C:\Users\iabud\Desktop\me\c#\c# OOP\ConceptsOfOOp\obj\Debug\ConceptsOfOOp.exe
+C:\Users\iabud\Desktop\me\c#\c# OOP\ConceptsOfOOp\obj\Debug\ConceptsOfOOp.pdb

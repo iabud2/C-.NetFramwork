@@ -1,0 +1,7 @@
+C:\Users\iabud\Desktop\me\c#\c# OOP\Project1(Calculator)\bin\Debug\Project1(Calculator).exe.config
+C:\Users\iabud\Desktop\me\c#\c# OOP\Project1(Calculator)\bin\Debug\Project1(Calculator).exe
+C:\Users\iabud\Desktop\me\c#\c# OOP\Project1(Calculator)\bin\Debug\Project1(Calculator).pdb
+C:\Users\iabud\Desktop\me\c#\c# OOP\Project1(Calculator)\obj\Debug\Project1(Calculator).csproj.AssemblyReference.cache
+C:\Users\iabud\Desktop\me\c#\c# OOP\Project1(Calculator)\obj\Debug\Project1(Calculator).csproj.CoreCompileInputs.cache
+C:\Users\iabud\Desktop\me\c#\c# OOP\Project1(Calculator)\obj\Debug\Project1(Calculator).exe
+C:\Users\iabud\Desktop\me\c#\c# OOP\Project1(Calculator)\obj\Debug\Project1(Calculator).pdb

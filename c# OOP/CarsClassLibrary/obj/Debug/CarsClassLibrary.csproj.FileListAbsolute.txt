@@ -1,0 +1,6 @@
+C:\Users\iabud\Desktop\me\c#\c# OOP\CarsClassLibrary\bin\Debug\CarsClassLibrary.dll
+C:\Users\iabud\Desktop\me\c#\c# OOP\CarsClassLibrary\bin\Debug\CarsClassLibrary.pdb
+C:\Users\iabud\Desktop\me\c#\c# OOP\CarsClassLibrary\obj\Debug\CarsClassLibrary.csproj.AssemblyReference.cache
+C:\Users\iabud\Desktop\me\c#\c# OOP\CarsClassLibrary\obj\Debug\CarsClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\iabud\Desktop\me\c#\c# OOP\CarsClassLibrary\obj\Debug\CarsClassLibrary.dll
+C:\Users\iabud\Desktop\me\c#\c# OOP\CarsClassLibrary\obj\Debug\CarsClassLibrary.pdb

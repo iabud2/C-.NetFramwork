@@ -118,10 +118,235 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="defaultMale" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\defaultMale.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="User128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\User128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="applications128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\applications128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="password" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\password.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="email" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\email.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DeletePerson128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DeletePerson128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GrayUsersetting" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GrayUsersetting.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="defaultfemale" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\defaultfemale.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="applicationsBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\applicationsBlue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_13_aswasdas1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\13_aswasdas1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PeopleGray2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PeopleGray2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="people3128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\people3128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="people512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\people512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logout32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logout32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Driver128px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Driver128px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="User128px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\User128px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Phone32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Phone32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EditPerson128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EditPerson128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EditPerson64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EditPerson64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RemovePerson64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RemovePerson64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="People128px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\People128px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="driver2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\driver2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="drivers128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\drivers128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="application512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\application512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="phone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\phone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ListPeople128px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ListPeople128px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Earth" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Earth.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PeopleList32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PeopleList32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="application128px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\application128px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Driver128px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Driver128px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="person32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\person32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="idCard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\idCard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="next-button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\next-button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="idCard1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\idCard1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="calendar2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\calendar2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="driver1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\driver1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lginbutton2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lginbutton2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Address" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Address.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="عوضيه" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\عوضيه.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="reset-password" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\reset-password.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logout128px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logout128px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="findperson128px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\findperson128px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Find32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Find32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RemovePerson128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RemovePerson128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="xcloseBalck64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\xcloseBalck64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdatePerson256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UpdatePerson256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DeletePerson64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DeletePerson64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddNewPerson32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddNewPerson32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="earth32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\earth32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Details32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Details32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddNewPerson128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddNewPerson128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdatePerson128px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UpdatePerson128px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="peoplesGray" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\peoplesGray.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loginbutton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loginbutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defaultMale" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defaultMale.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FindPeerson128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FindPeerson128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mail32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mail32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Edit32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Edit32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddPerson64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddPerson64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="driver128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\driver128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="male-user" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\male-user.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="account_settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\account-settings.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdatePerson128px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UpdatePerson128px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="people2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\people2561.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="add32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ApplicationsBlack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ApplicationsBlack.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="people256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\people256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Delete32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Delete32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AccountSettings128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AccountSettings128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Showdetails32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Showdetails32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="people128pxNoEyes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\people128pxNoEyes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="people128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\people128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ListPeople64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ListPeople64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="People1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\People1281.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="woman-avatar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\woman-avatar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ListPeople128px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ListPeople128px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EditPerson32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EditPerson32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="application5121" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\application5121.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

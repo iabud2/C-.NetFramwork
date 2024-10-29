@@ -1,0 +1,6 @@
+C:\Users\iabud\Desktop\me\c#\Course19(Project(DVLD))\DVLD_DataAccesLayer\bin\Debug\DVLD_DataAccesLayer.dll
+C:\Users\iabud\Desktop\me\c#\Course19(Project(DVLD))\DVLD_DataAccesLayer\bin\Debug\DVLD_DataAccesLayer.pdb
+C:\Users\iabud\Desktop\me\c#\Course19(Project(DVLD))\DVLD_DataAccesLayer\obj\Debug\DVLD_DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\iabud\Desktop\me\c#\Course19(Project(DVLD))\DVLD_DataAccesLayer\obj\Debug\DVLD_DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\iabud\Desktop\me\c#\Course19(Project(DVLD))\DVLD_DataAccesLayer\obj\Debug\DVLD_DataAccesLayer.dll
+C:\Users\iabud\Desktop\me\c#\Course19(Project(DVLD))\DVLD_DataAccesLayer\obj\Debug\DVLD_DataAccesLayer.pdb

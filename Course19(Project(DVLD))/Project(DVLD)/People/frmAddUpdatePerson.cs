@@ -17,6 +17,10 @@ namespace Project_DVLD_
 {
     public partial class frmAddUpdatePerson : Form
     {
+        public delegate void DataBackEventHandler(object sender, int PersonID);
+        public event DataBackEventHandler DataBack;
+
+
         enum enMode {AddNew = 0, Update = 1}
         enum enGendor { Female = 0, Male = 1 }
         enMode Mode;
@@ -222,12 +226,14 @@ namespace Project_DVLD_
                 Mode = enMode.Update;
                 lbTitle.Text = "Update Person";
                 MessageBox.Show("Person Added Successfully.", "Save", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                DataBack?.Invoke(this, _Person.PersonID);
             }
             else
             {
                 MessageBox.Show("Person Doesn't Saved Successfully.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-
+            this.Close();
 
         }
 
@@ -247,7 +253,7 @@ namespace Project_DVLD_
             }
         }
 
-        //----------------------
+
         private void tbNationalNoValidation(object sender, CancelEventArgs e)
         {
             if(string.IsNullOrEmpty(tbNationalNo.Text.Trim()))
@@ -272,7 +278,7 @@ namespace Project_DVLD_
             }
         }
 
-        //------------------------------
+
         private void rbMale_CheckedChanged(object sender, EventArgs e)
         {
             if(pbPersonImage.ImageLocation == null)
@@ -323,6 +329,11 @@ namespace Project_DVLD_
             {
                 errorProvider1.SetError(Temp, null);
             }
+        }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

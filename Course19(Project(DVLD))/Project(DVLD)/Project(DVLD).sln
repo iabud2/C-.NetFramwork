@@ -5,7 +5,7 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project(DVLD)", "Project(DVLD).csproj", "{38C9963E-6836-4BD5-AB29-44BE69DB2540}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DVLD_DataAccesLayer", "..\DVLD_DataAccesLayer\DVLD_DataAccesLayer.csproj", "{41AA3255-E0E7-4FC7-AFA1-F85A729475CD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DVLD_DataAccessLayer", "..\DVLD_DataAccesLayer\DVLD_DataAccessLayer.csproj", "{41AA3255-E0E7-4FC7-AFA1-F85A729475CD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DVLD_BusinessLayer", "..\DVLD_BusinessLayer\DVLD_BusinessLayer.csproj", "{54284E5B-0896-4D65-9DCD-01E7C8BDED4A}"
 EndProject

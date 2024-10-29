@@ -16,12 +16,8 @@ namespace Project_DVLD_
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            LoginScreen logon = new LoginScreen();
-
-            if(logon.ShowDialog() != DialogResult.OK)
-            {
-                Application.Run(new frmMainScreen());
-            }
+            Application.Run(new LoginScreen());
+            
         }
     }
 }

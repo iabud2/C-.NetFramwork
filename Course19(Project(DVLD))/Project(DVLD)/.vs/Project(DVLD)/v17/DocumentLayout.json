@@ -1,20 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\iabud\\Desktop\\me\\c#\\Course19(Project(DVLD))\\Project(DVLD)\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{38C9963E-6836-4BD5-AB29-44BE69DB2540}|Project(DVLD).csproj|C:\\Users\\iabud\\Desktop\\me\\c#\\Course19(Project(DVLD))\\Project(DVLD)\\people\\frmmanagepeople.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{38C9963E-6836-4BD5-AB29-44BE69DB2540}|Project(DVLD).csproj|solutionrelative:people\\frmmanagepeople.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38C9963E-6836-4BD5-AB29-44BE69DB2540}|Project(DVLD).csproj|C:\\Users\\iabud\\Desktop\\me\\c#\\Course19(Project(DVLD))\\Project(DVLD)\\people\\frmaddupdateperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{38C9963E-6836-4BD5-AB29-44BE69DB2540}|Project(DVLD).csproj|solutionrelative:people\\frmaddupdateperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38C9963E-6836-4BD5-AB29-44BE69DB2540}|Project(DVLD).csproj|c:\\users\\iabud\\desktop\\me\\c#\\course19(project(dvld))\\project(dvld)\\people\\frmaddupdateperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38C9963E-6836-4BD5-AB29-44BE69DB2540}|Project(DVLD).csproj|solutionrelative:people\\frmaddupdateperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -22,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -31,43 +18,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "frmAddUpdatePerson.cs",
-              "DocumentMoniker": "C:\\Users\\iabud\\Desktop\\me\\c#\\Course19(Project(DVLD))\\Project(DVLD)\\People\\frmAddUpdatePerson.cs",
-              "RelativeDocumentMoniker": "People\\frmAddUpdatePerson.cs",
-              "ToolTip": "C:\\Users\\iabud\\Desktop\\me\\c#\\Course19(Project(DVLD))\\Project(DVLD)\\People\\frmAddUpdatePerson.cs",
-              "RelativeToolTip": "People\\frmAddUpdatePerson.cs",
-              "ViewState": "AQIAAKcAAAAAAAAAAAArwLMAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T05:39:37.986Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmAddUpdatePerson.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\iabud\\Desktop\\me\\c#\\Course19(Project(DVLD))\\Project(DVLD)\\People\\frmAddUpdatePerson.cs",
-              "RelativeDocumentMoniker": "People\\frmAddUpdatePerson.cs",
-              "ToolTip": "C:\\Users\\iabud\\Desktop\\me\\c#\\Course19(Project(DVLD))\\Project(DVLD)\\People\\frmAddUpdatePerson.cs [Design]",
-              "RelativeToolTip": "People\\frmAddUpdatePerson.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T13:26:25.695Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmManagePeople.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\iabud\\Desktop\\me\\c#\\Course19(Project(DVLD))\\Project(DVLD)\\People\\frmManagePeople.cs",
-              "RelativeDocumentMoniker": "People\\frmManagePeople.cs",
-              "ToolTip": "C:\\Users\\iabud\\Desktop\\me\\c#\\Course19(Project(DVLD))\\Project(DVLD)\\People\\frmManagePeople.cs [Design]",
-              "RelativeToolTip": "People\\frmManagePeople.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T11:08:41.616Z",
-              "EditorCaption": " [Design]"
             }
           ]
         }

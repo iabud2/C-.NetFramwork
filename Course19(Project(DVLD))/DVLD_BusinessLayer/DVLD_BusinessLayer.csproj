@@ -42,16 +42,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="clsCountries.cs" />
-    <Compile Include="clsPerson.cs" />
+    <Compile Include="Application\clsApplications.cs" />
+    <Compile Include="Application\clsApplicationTypes.cs" />
+    <Compile Include="People\clsCountries.cs" />
+    <Compile Include="People\clsPerson.cs" />
+    <Compile Include="People\clsUsers.cs" />
+    <Compile Include="GeneralClasses\clsGlobal.cs" />
     <Compile Include="GeneralClasses\clsUtil.cs" />
     <Compile Include="GeneralClasses\clsValidations.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tests\clsTestTypes.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DVLD_DataAccesLayer\DVLD_DataAccesLayer.csproj">
-      <Project>{41aa3255-e0e7-4fc7-afa1-f85a729475cd}</Project>
-      <Name>DVLD_DataAccesLayer</Name>
+    <ProjectReference Include="..\DVLD_DataAccesLayer\DVLD_DataAccessLayer.csproj">
+      <Project>{67631c81-f325-4555-a45a-a22cc1208aaa}</Project>
+      <Name>DVLD_DataAccessLayer</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

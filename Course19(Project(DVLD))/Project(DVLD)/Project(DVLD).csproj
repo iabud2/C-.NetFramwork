@@ -46,6 +46,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Applications\frmEditApplicationType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Applications\frmEditApplicationType.Designer.cs">
+      <DependentUpon>frmEditApplicationType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Applications\frmManageApplicationTypes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Applications\frmManageApplicationTypes.Designer.cs">
+      <DependentUpon>frmManageApplicationTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ucFindPerson.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ucFindPerson.Designer.cs">
+      <DependentUpon>ucFindPerson.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ucUserInformation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ucUserInformation.Designer.cs">
+      <DependentUpon>ucUserInformation.cs</DependentUpon>
+    </Compile>
     <Compile Include="People\frmAddUpdatePerson.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,11 +82,23 @@
     <Compile Include="frmMainScreen.Designer.cs">
       <DependentUpon>frmMainScreen.cs</DependentUpon>
     </Compile>
-    <Compile Include="People\frmManagePeople.cs">
+    <Compile Include="People\frmDeletePerson.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="People\frmManagePeople.Designer.cs">
-      <DependentUpon>frmManagePeople.cs</DependentUpon>
+    <Compile Include="People\frmDeletePerson.Designer.cs">
+      <DependentUpon>frmDeletePerson.cs</DependentUpon>
+    </Compile>
+    <Compile Include="People\frmFindPerson.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="People\frmFindPerson.Designer.cs">
+      <DependentUpon>frmFindPerson.cs</DependentUpon>
+    </Compile>
+    <Compile Include="People\frmPeopleList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="People\frmPeopleList.Designer.cs">
+      <DependentUpon>frmPeopleList.cs</DependentUpon>
     </Compile>
     <Compile Include="LoginScreen.cs">
       <SubType>Form</SubType>
@@ -70,24 +106,113 @@
     <Compile Include="LoginScreen.Designer.cs">
       <DependentUpon>LoginScreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="People\frmShowPersonDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="People\frmShowPersonDetails.Designer.cs">
+      <DependentUpon>frmShowPersonDetails.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Controls\ucPersonDetails.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ucPersonDetails.Designer.cs">
+      <DependentUpon>ucPersonDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\frmEditTestType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tests\frmEditTestType.Designer.cs">
+      <DependentUpon>frmEditTestType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tests\frmManageTestTypes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tests\frmManageTestTypes.Designer.cs">
+      <DependentUpon>frmManageTestTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users\frmAddUpdateUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Users\frmAddUpdateUser.Designer.cs">
+      <DependentUpon>frmAddUpdateUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users\frmChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Users\frmChangePassword.Designer.cs">
+      <DependentUpon>frmChangePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users\frmListUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Users\frmListUsers.Designer.cs">
+      <DependentUpon>frmListUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users\frmUserInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Users\frmUserInfo.Designer.cs">
+      <DependentUpon>frmUserInfo.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Applications\frmEditApplicationType.resx">
+      <DependentUpon>frmEditApplicationType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Applications\frmManageApplicationTypes.resx">
+      <DependentUpon>frmManageApplicationTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ucFindPerson.resx">
+      <DependentUpon>ucFindPerson.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ucUserInformation.resx">
+      <DependentUpon>ucUserInformation.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="People\frmAddUpdatePerson.resx">
       <DependentUpon>frmAddUpdatePerson.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMainScreen.resx">
       <DependentUpon>frmMainScreen.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="People\frmManagePeople.resx">
-      <DependentUpon>frmManagePeople.cs</DependentUpon>
+    <EmbeddedResource Include="People\frmDeletePerson.resx">
+      <DependentUpon>frmDeletePerson.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="People\frmFindPerson.resx">
+      <DependentUpon>frmFindPerson.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="People\frmPeopleList.resx">
+      <DependentUpon>frmPeopleList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginScreen.resx">
       <DependentUpon>LoginScreen.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="People\frmShowPersonDetails.resx">
+      <DependentUpon>frmShowPersonDetails.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ucPersonDetails.resx">
+      <DependentUpon>ucPersonDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tests\frmEditTestType.resx">
+      <DependentUpon>frmEditTestType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tests\frmManageTestTypes.resx">
+      <DependentUpon>frmManageTestTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users\frmAddUpdateUser.resx">
+      <DependentUpon>frmAddUpdateUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users\frmChangePassword.resx">
+      <DependentUpon>frmChangePassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users\frmListUsers.resx">
+      <DependentUpon>frmListUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users\frmUserInfo.resx">
+      <DependentUpon>frmUserInfo.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -113,12 +238,236 @@
       <Name>DVLD_BusinessLayer</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\13_aswasdas1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\account-settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AccountSettings128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AddNewPerson128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application128px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\applications128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ApplicationsBlack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\applicationsBlue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\defaultfemale.png" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="Resources\defaultMale.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\defaultfemale.png" />
+    <None Include="Resources\driver1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\driver2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\driver128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Driver128px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Driver128px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drivers128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FindPeerson128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\findperson128px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GrayUsersetting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lginbutton2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loginbutton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout128px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\people128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\People128px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\people128pxNoEyes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\people256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\people512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\People1281.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\people2561.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\people3128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PeopleGray2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\peoplesGray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UpdatePerson128px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UpdatePerson128px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UpdatePerson256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User128px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DeletePerson128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ListPeople128px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ListPeople128px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PeopleList32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ListPeople64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\عوضيه.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AddPerson64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EditPerson64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EditPerson128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RemovePerson128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RemovePerson64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DeletePerson64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Edit32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EditPerson32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mail32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Phone32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AddNewPerson32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Details32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Showdetails32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\idCard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\person32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\idCard1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\male-user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\email.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Address.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Earth.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\earth32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\woman-avatar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xcloseBalck64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Find32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\password.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reset-password.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application5121.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

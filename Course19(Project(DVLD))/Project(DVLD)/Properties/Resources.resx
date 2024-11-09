@@ -214,6 +214,9 @@
   <data name="next-button" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\next-button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="application5121" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\application5121.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="idCard1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\idCard1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -292,6 +295,9 @@
   <data name="AddPerson64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\AddPerson64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="AddNewApplication128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddNewApplication128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="driver128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\driver128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -346,7 +352,7 @@
   <data name="EditPerson32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\EditPerson32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="application5121" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\application5121.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="addNewApplication64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\addNewApplication64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -25,17 +25,17 @@ namespace DVLD_BusinessLayer.Application
 
         public clsApplicationTypes()
         {
-            ApplicationID = -1;
-            ApplicationName = "";
-            ApplicationFees = -1;
+            this.ApplicationID = -1;
+            this.ApplicationName = "";
+            this.ApplicationFees = -1;
             Mode = enMode.AddNew;
         }
 
         private clsApplicationTypes(int ID, string Name, float Fees)
         {
-            ApplicationID = ID;
-            ApplicationName = Name;
-            ApplicationFees = Fees;
+            this.ApplicationID = ID;
+            this.ApplicationName = Name;
+            this.ApplicationFees = Fees;
             Mode = enMode.Update;
         }
 
@@ -63,8 +63,10 @@ namespace DVLD_BusinessLayer.Application
             return (ApplicationsTypesDataLayer.GetAllApplicationsTypes());
         }
 
-        static public clsApplicationTypes GetApplicationTypeInfo(int ID, string Name, float Fees)
+        static public clsApplicationTypes GetApplicationTypeInfo(int ID)
         {
+            string Name = "";
+            float Fees = -1;
             if(ApplicationsTypesDataLayer.GetApplictionTypeInfo(ID, ref Name, ref Fees))
             {
                 return new clsApplicationTypes(ID, Name, Fees);
@@ -72,13 +74,6 @@ namespace DVLD_BusinessLayer.Application
             return null;
         }
 
-        static public clsApplicationTypes Find(int ID)
-        {
-            string Title = "";
-            float Fees = -1;
-            return (GetApplicationTypeInfo(ID, Title, Fees));
-            
-        }
 
         public bool Save()
         {

@@ -9,18 +9,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
 namespace Project_DVLD_.Tests
 {
     public partial class frmEditTestType : Form
     {
 
-        private int _TestID = -1;
+        public clsTestTypes.enTestType  _TestID = clsTestTypes.enTestType.VisionTest;
         clsTestTypes Type;
         public frmEditTestType(int ID)
         {
             InitializeComponent();
-            _TestID = ID;
+            _TestID = (clsTestTypes.enTestType)ID;
             _LoadTestTypeInfo();
         }
 

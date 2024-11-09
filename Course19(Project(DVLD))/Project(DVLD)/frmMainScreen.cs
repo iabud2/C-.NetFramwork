@@ -112,5 +112,17 @@ namespace Project_DVLD_
             Form frm = new frmManageTestTypes();
             frm.ShowDialog();
         }
+
+        private void localLicToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frm = new frmAddUpdateLDL_Apllication();
+            frm.ShowDialog();
+        }
+
+        private void localDrivingLicenseApplicationsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frm = new frmLDLAL_List();
+            frm.ShowDialog();
+        }
     }
 }

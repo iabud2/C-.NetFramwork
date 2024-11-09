@@ -49,6 +49,44 @@ namespace DVLD_DataAccesLayer.Licenses
             return isFound;
         }
 
+        static public bool GetLicenseClassByClassName(ref int ID, string Name, ref string Description, ref int MinAllowedAge, 
+                                            ref int DefaultValidityDate, ref float fees)
+        {
+            bool isFound = false;
+            SqlConnection Connection = new SqlConnection(DVLD_DataAccessSettings.ConnectionString);
+            string query = @"SELECT * FROM LicenseClasses 
+                                WHERE ClassName = @ClassName";
+            SqlCommand Command = new SqlCommand(query, Connection);
+            Command.Parameters.AddWithValue("@ClassName", Name);
+
+            try
+            {
+                Connection.Open();
+                SqlDataReader reader = Command.ExecuteReader();
+                if (reader.Read())
+                {
+                    isFound = true;
+                    ID = (int)reader["ClassID"];
+                    Description = reader["ClassDescription"].ToString();
+                    MinAllowedAge = (int)reader["MinimumAllowedAge"];
+                    DefaultValidityDate = (int)reader["DefaultValidityDate"];
+                    fees = Convert.ToSingle(reader["ClassFees"]);
+                }
+                reader.Close();
+            }
+            catch (Exception e)
+            {
+                //Type Your Exception.
+            }
+            finally
+            {
+                Connection.Close();
+            }
+            return isFound;
+        }
+
+
+
         static public DataTable ListLicenseClasses() 
         { 
             DataTable dt = new DataTable();

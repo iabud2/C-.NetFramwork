@@ -5,6 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data;
 using System.Data.SqlClient;
+using System.Security.Cryptography.X509Certificates;
+using System.ComponentModel.Design;
+using System.Runtime.Remoting.Messaging;
 namespace DVLD_DataAccesLayer.Applications
 {
     static public class Local_DL_ApplicationsDataLayer
@@ -27,7 +30,7 @@ namespace DVLD_DataAccesLayer.Applications
             {
                 connection.Open();
                 SqlDataReader reader = command.ExecuteReader();
-                if(reader.Read()) 
+                if (reader.Read())
                 {
                     isFound = true;
                     ApplicationID = (int)reader["ApplicationID"];
@@ -35,7 +38,7 @@ namespace DVLD_DataAccesLayer.Applications
                 }
                 reader.Close();
             }
-            catch (Exception ex) 
+            catch (Exception ex)
             {
 
             }
@@ -46,22 +49,212 @@ namespace DVLD_DataAccesLayer.Applications
             return isFound;
         }
 
-        public static DataTable Get_LDLA_List() 
+        static public bool GetLDLA_ByApplicationiD(ref int LDLAID, int ApplicationID, ref int LicenseClassID)
+        {
+            bool IsFound = false;
+            SqlConnection Connection = new SqlConnection(DVLD_DataAccessSettings.ConnectionString);
+            string Query = @"SELECT * FROM LocalDrivingLicenseApplications 
+                                    WHERE ApplicationID = @ApplicationID";
+            SqlCommand Command = new SqlCommand(Query, Connection);
+            Command.Parameters.AddWithValue("@ApplicationID", ApplicationID);
+
+            try
+            {
+                Connection.Open();
+                SqlDataReader Reader = Command.ExecuteReader();
+                if(Reader.Read())
+                {
+                    IsFound = true;
+                    LDLAID = (int)Reader["LocalDrivingLicenseApplicationID"];
+                    LicenseClassID = (int)Reader["LicenseClassID"];
+                    Reader.Close();
+                }
+
+            }
+            catch (Exception ex) 
+            {
+                //Type Exception.
+            }
+            finally
+            {
+                Connection.Close();
+            }
+            return IsFound;
+        }
+
+        static public bool DoesPassTestType(int LDLAID, int TestTypeID)
+        {
+            bool isFound = false;
+            SqlConnection  Connection = new SqlConnection();
+            string Query = @"SELECT TOP 1 TestResult FROM LocalDrivingLicenseApplications
+                             INNER JOIN TestsAppointments ON 
+                              LocalDrivingLicenseApplications.LocalDrivingLicenseApplciationID = TestsAppointments.LocalDrvingLicenseApplicationID
+                             INNER JOIN Tests ON TestsAppointments.AppointmentID = Tests.TestAppointmentID
+                             WHERE 
+                              LocalDrvingLicenseApplications.LocalDrivingLicenseApplicationID = @LDLAID
+                              AND TestsAppointments.TestTypeID = @TestsTypeID
+                             ORDER BY TestsAppointments.AppointmentID desc;";
+
+            SqlCommand Command = new SqlCommand(Query, Connection);
+            Command.Parameters.AddWithValue("@LDLAID", LDLAID);
+            Command.Parameters.AddWithValue("@TestTypeID",TestTypeID);
+            
+            try
+            {
+                Connection.Open();
+                SqlDataReader reader = Command.ExecuteReader();
+                isFound = reader.HasRows;
+                reader.Close();
+            }
+            catch(Exception ex) 
+            {
+                //Type any exception.
+            }
+            finally
+            {
+                Connection.Close();
+            }
+
+            return isFound;                  
+        }
+
+        static public bool isPersonAttendTestType(int LDLAID, int TestTypeID)
+        {
+            bool isFound = false;
+            SqlConnection Connection = new SqlConnection(DVLD_DataAccessSettings.ConnectionString);
+            string Query = @"SELECT TOP 1 Found = 1 FROM LocalDrivingLicenseApplications
+                            INNER JOIN TestsAppointments ON TestsAppointments.LocalDrivingLicenseApplicationID = LocalDrivingLicenseApplications.LocalDrivingLicenseApplicationID
+                            INNER JOIN Tests ON Tests.TestAppointmentID = TestsAppointments.AppointmentID
+                            WHERE 
+                            LocalDrivingLicenseApplications.LocalDrivingLicenseApplicationID = @LDLAID AND
+                            TestsAppointments.TestTypeID = @TestTypeID
+                            ORDER BY TestsAppointments.AppointmentID desc; ";
+            SqlCommand Command = new SqlCommand(Query, Connection);
+            Command.Parameters.AddWithValue("@LDLAID", LDLAID);
+            Command.Parameters.AddWithValue("@TestTypeID", TestTypeID);
+
+            try
+            {
+                Connection.Open();
+                object result = Command.ExecuteScalar();
+                if(result != null)
+                {
+                    isFound = true;
+                }
+            }
+            catch (Exception ex) 
+            {
+                //Exception Here
+            }
+            finally
+            {
+                Connection.Close();
+            }
+            return isFound;
+        }
+
+        static public int TotalTrailsPerTest(int LDLAID, int TestTypeID)
+        {
+            int TotalTrails = -1;
+            SqlConnection Connection = new SqlConnection(DVLD_DataAccessSettings.ConnectionString);
+            string Query = @"select Count(*) TotalTrails FROM LocalDrivingLicenseApplications
+                                    INNER JOIN TestsAppointments ON 
+                                    TestsAppointments.LocalDrivingLicenseApplicationID = LocalDrivingLicenseApplications.LocalDrivingLicenseApplicationID
+                                    INNER JOIN Tests ON Tests.TestAppointmentID = TestsAppointments.AppointmentID
+                             WHERE
+                                    LocalDrivingLicenseApplications.LocalDrivingLicenseApplicationID = @LDLAID
+                                    AND
+                                    TestsAppointments.TestTypeID = @TestTypeID ";
+            SqlCommand Command = new SqlCommand(Query, Connection);
+            Command.Parameters.AddWithValue("@LDLAID", LDLAID);
+            Command.Parameters.AddWithValue("TestTypeID", TestTypeID);
+
+            try
+            {
+                Connection.Open();
+                object result = Command.ExecuteScalar();
+                if(result !=null && int.TryParse(result.ToString(), out int Trails))
+                {
+                    TotalTrails = Trails;
+                }
+            }
+            catch (Exception e) 
+            {
+                //Type Your Exception.
+            }
+            finally
+            {
+                Connection.Close();
+            }
+
+            return TotalTrails;
+        }
+
+        public static bool IsThereAndActiveScheduledTest(int LDLAID, int TestTypeID)
+        {
+            bool isFound = false;
+            SqlConnection Connection = new SqlConnection(DVLD_DataAccessSettings.ConnectionString);
+            string Query = @"SELECT Found = 1 FROM LocalDrivingLicenseApplications
+                                INNER JOIN TestsAppointments ON 
+                                TestsAppointments.LocalDrivingLicenseApplicationID = LocalDrivingLicenseApplications.LocalDrivingLicenseApplicationID
+                             WHERE
+                             LocalDrivingLicenseApplications.LocalDrivingLicenseApplicationID = @LDLAID
+                             AND
+                             TestsAppointments.TestTypeID = @TestTypeID
+                             AND 
+                             TestsAppointments.IsLocked = 0;";
+            SqlCommand Command = new SqlCommand(Query, Connection);
+            Command.Parameters.AddWithValue("@LDLAID", LDLAID);
+            Command.Parameters.AddWithValue("@TestTypeID", TestTypeID);
+
+            try
+            {
+                Connection.Open();
+                object result = Command.ExecuteScalar();
+                if(result != null)
+                {
+                    isFound = true;
+                }
+            }
+            catch(Exception e) 
+            {
+                //Type Exception
+            }
+            finally
+            {
+                Connection.Close();
+            }
+            return isFound;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+        public static DataTable Get_LDLA_List()
         {
             DataTable dt = new DataTable();
             SqlConnection connection = new SqlConnection(DVLD_DataAccessSettings.ConnectionString);
-            string Query = @"SELECT * FROM LocalDrivingLicenseApplications;";
+            string Query = @"SELECT * FROM LocalDrivingLicenseApplications_View;";
             SqlCommand command = new SqlCommand(Query, connection);
 
             try
             {
                 connection.Open();
                 SqlDataReader reader = command.ExecuteReader();
-                
-                if(reader.HasRows)
+
+                if (reader.HasRows)
                 {
                     dt.Load(reader);
-                }    
+                }
                 reader.Close();
             }
             catch (Exception e)
@@ -99,7 +292,7 @@ namespace DVLD_DataAccesLayer.Applications
                     NewID = insertedID;
                 }
             }
-            catch (Exception e) 
+            catch (Exception e)
             {
 
             }
@@ -107,7 +300,7 @@ namespace DVLD_DataAccesLayer.Applications
             {
                 Connection.Close();
             }
-            return  NewID;
+            return NewID;
         }
 
         public static bool Update_LDLA(int ID, int ApplicationID, int ClassID)
@@ -129,7 +322,7 @@ namespace DVLD_DataAccesLayer.Applications
                 connection.Open();
                 effectedRows = command.ExecuteNonQuery();
             }
-            catch (Exception e) 
+            catch (Exception e)
             {
 
             }
@@ -155,16 +348,16 @@ namespace DVLD_DataAccesLayer.Applications
                 connection.Open();
                 effectedRows = command.ExecuteNonQuery();
             }
-            catch ( Exception e ) 
+            catch (Exception e)
             {
-            
+
             }
-            finally 
-            { 
-                connection.Close(); 
+            finally
+            {
+                connection.Close();
             }
 
-            return (effectedRows > 0);  
+            return (effectedRows > 0);
         }
     }
 }

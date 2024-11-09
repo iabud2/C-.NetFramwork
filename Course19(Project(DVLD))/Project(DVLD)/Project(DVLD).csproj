@@ -46,11 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Applications\frmAddUpdateLDL_Apllication.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Applications\frmAddUpdateLDL_Apllication.Designer.cs">
+      <DependentUpon>frmAddUpdateLDL_Apllication.cs</DependentUpon>
+    </Compile>
     <Compile Include="Applications\frmEditApplicationType.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Applications\frmEditApplicationType.Designer.cs">
       <DependentUpon>frmEditApplicationType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Applications\frmLDLAL_List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Applications\frmLDLAL_List.Designer.cs">
+      <DependentUpon>frmLDLAL_List.cs</DependentUpon>
     </Compile>
     <Compile Include="Applications\frmManageApplicationTypes.cs">
       <SubType>Form</SubType>
@@ -63,6 +75,12 @@
     </Compile>
     <Compile Include="Controls\ucFindPerson.Designer.cs">
       <DependentUpon>ucFindPerson.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ucShowApplicationInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ucShowApplicationInfo.Designer.cs">
+      <DependentUpon>ucShowApplicationInfo.cs</DependentUpon>
     </Compile>
     <Compile Include="Controls\ucUserInformation.cs">
       <SubType>UserControl</SubType>
@@ -156,14 +174,23 @@
     <Compile Include="Users\frmUserInfo.Designer.cs">
       <DependentUpon>frmUserInfo.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Applications\frmAddUpdateLDL_Apllication.resx">
+      <DependentUpon>frmAddUpdateLDL_Apllication.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Applications\frmEditApplicationType.resx">
       <DependentUpon>frmEditApplicationType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Applications\frmLDLAL_List.resx">
+      <DependentUpon>frmLDLAL_List.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Applications\frmManageApplicationTypes.resx">
       <DependentUpon>frmManageApplicationTypes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Controls\ucFindPerson.resx">
       <DependentUpon>ucFindPerson.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ucShowApplicationInfo.resx">
+      <DependentUpon>ucShowApplicationInfo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Controls\ucUserInformation.resx">
       <DependentUpon>ucUserInformation.cs</DependentUpon>
@@ -468,6 +495,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\application5121.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AddNewApplication128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addNewApplication64.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

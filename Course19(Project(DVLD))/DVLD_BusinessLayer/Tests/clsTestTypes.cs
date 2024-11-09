@@ -10,7 +10,9 @@ namespace DVLD_BusinessLayer.Tests
 {
     public class clsTestTypes
     {
-        public int ID { set; get; }
+        public enum enTestType { VisionTest = 1, WrittenTest = 2, StreetTest = 3}
+
+        public clsTestTypes.enTestType ID { set; get; }
         public string Title {  set; get; }
         public string Description { set; get; }
         public float Fees { set; get; } 
@@ -21,13 +23,13 @@ namespace DVLD_BusinessLayer.Tests
         public clsTestTypes()
         {
             Mode = enMode.AddNew;
-            this.ID = -1;
+            this.ID = clsTestTypes.enTestType.VisionTest;
             this.Title = "";
             this.Description = "";
             this.Fees = -1;
         }
 
-        private clsTestTypes(int id, string name, string description, float fees)
+        private clsTestTypes(clsTestTypes.enTestType id, string name, string description, float fees)
         {
             Mode = enMode.Update;
             this.ID = id;
@@ -38,14 +40,13 @@ namespace DVLD_BusinessLayer.Tests
 
         private bool AddNewTestType()
         {
-            this.ID = TestTypesDataLayer.AddNewTestType(this.Title, this.Description, this.Fees);
-            
-            return(this.ID != -1);
+            this.ID = (clsTestTypes.enTestType)TestTypesDataLayer.AddNewTestType(this.Title, this.Description, this.Fees);    
+            return((int)this.ID != -1);
         }
 
         private bool UpdateTestType() 
         {
-            return (TestTypesDataLayer.UpdateTestTYpe(this.ID, this.Title, this.Description, this.Fees));    
+            return (TestTypesDataLayer.UpdateTestTYpe((int)this.ID, this.Title, this.Description, this.Fees));    
         }
 
         static public DataTable ListTestTypes()
@@ -53,11 +54,11 @@ namespace DVLD_BusinessLayer.Tests
             return(TestTypesDataLayer.GetTestTypesList()); 
         }
 
-        static public clsTestTypes GetTestTypeInfo(int ID)
+        static public clsTestTypes GetTestTypeInfo(clsTestTypes.enTestType ID)
         {
             string Title = "", Description = "";
             float Fees = 0;
-            if (TestTypesDataLayer.GetTestTypeInfo(ID , ref Title, ref Description, ref Fees))
+            if (TestTypesDataLayer.GetTestTypeInfo((int)ID , ref Title, ref Description, ref Fees))
             {
                 return (new clsTestTypes(ID, Title, Description, Fees));
             }

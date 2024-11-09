@@ -28,7 +28,7 @@ namespace Project_DVLD_.Applications
 
         private void _LoadApplicationTypeInfo()
         {
-            _Type = clsApplicationTypes.Find(this._ID);
+            _Type = clsApplicationTypes.GetApplicationTypeInfo(this._ID);
             if (_Type == null) 
             {
                 this.Close();

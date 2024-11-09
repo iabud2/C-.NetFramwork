@@ -30,3 +30,6 @@ C:\Users\iabud\Desktop\me\c#\Course19(Project(DVLD))\Project(DVLD)\obj\Debug\Pro
 C:\Users\iabud\Desktop\me\c#\Course19(Project(DVLD))\Project(DVLD)\obj\Debug\Project_DVLD_.Applications.frmEditApplicationType.resources
 C:\Users\iabud\Desktop\me\c#\Course19(Project(DVLD))\Project(DVLD)\obj\Debug\Project_DVLD_.Tests.frmManageTestTypes.resources
 C:\Users\iabud\Desktop\me\c#\Course19(Project(DVLD))\Project(DVLD)\obj\Debug\Project_DVLD_.Tests.frmEditTestType.resources
+C:\Users\iabud\Desktop\me\c#\Course19(Project(DVLD))\Project(DVLD)\obj\Debug\Project_DVLD_.Applications.frmAddUpdateLDL_Apllication.resources
+C:\Users\iabud\Desktop\me\c#\Course19(Project(DVLD))\Project(DVLD)\obj\Debug\Project_DVLD_.Applications.frmLDLAL_List.resources
+C:\Users\iabud\Desktop\me\c#\Course19(Project(DVLD))\Project(DVLD)\obj\Debug\Project_DVLD_.Controls.ucShowApplicationInfo.resources

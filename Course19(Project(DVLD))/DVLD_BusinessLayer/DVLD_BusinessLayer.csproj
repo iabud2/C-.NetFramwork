@@ -44,6 +44,8 @@
   <ItemGroup>
     <Compile Include="Application\clsApplications.cs" />
     <Compile Include="Application\clsApplicationTypes.cs" />
+    <Compile Include="Application\cls_LDLA.cs" />
+    <Compile Include="Licenses\clsLicenseClasses.cs" />
     <Compile Include="People\clsCountries.cs" />
     <Compile Include="People\clsPerson.cs" />
     <Compile Include="People\clsUsers.cs" />
@@ -51,6 +53,8 @@
     <Compile Include="GeneralClasses\clsUtil.cs" />
     <Compile Include="GeneralClasses\clsValidations.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tests\clsTests.cs" />
+    <Compile Include="Tests\clsTestsAppointments.cs" />
     <Compile Include="Tests\clsTestTypes.cs" />
   </ItemGroup>
   <ItemGroup>

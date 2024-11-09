@@ -103,6 +103,26 @@ namespace Project_DVLD_.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap AddNewApplication128 {
+            get {
+                object obj = ResourceManager.GetObject("AddNewApplication128", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap addNewApplication64 {
+            get {
+                object obj = ResourceManager.GetObject("addNewApplication64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap AddNewPerson128 {
             get {
                 object obj = ResourceManager.GetObject("AddNewPerson128", resourceCulture);

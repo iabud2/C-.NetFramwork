@@ -90,10 +90,7 @@ namespace Project_DVLD_.Users
                 errorProvider1.SetError(txtCurrentPassword, null);
         }
 
-        private void btnClose_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
+
 
         private void btnclose2_Click(object sender, EventArgs e)
         {

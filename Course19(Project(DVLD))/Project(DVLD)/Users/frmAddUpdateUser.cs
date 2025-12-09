@@ -1,4 +1,5 @@
 ﻿using DVLD_BusinessLayer;
+using DVLD_BusinessLayer.GeneralClasses;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -25,6 +26,7 @@ namespace Project_DVLD_.Users
             Mode = enMode.AddNew;
         }
 
+
         public frmAddUpdateUser(int userID)
         {
             InitializeComponent();
@@ -32,10 +34,7 @@ namespace Project_DVLD_.Users
             Mode = enMode.Update;
         }
 
-        private void btnClose_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
+
         
         private void _ResetDefaultValues()
         {
@@ -44,6 +43,7 @@ namespace Project_DVLD_.Users
                 lbFormTitle.Text = "Add New User";
                 this.Text = "Add New User";
                 _User1 = new clsUsers();
+                this.Text = "Add New User";
                 tpLoginInfo.Enabled = false;
             }
             else 
@@ -53,6 +53,7 @@ namespace Project_DVLD_.Users
                 tpLoginInfo.Enabled = true;
                 btnNext.Enabled = true;
                 btnSave.Enabled = true;
+                this.Text = "Update User Info";
                 return;
             }
 
@@ -202,7 +203,18 @@ namespace Project_DVLD_.Users
             _User1.Password = txtPassword.Text.Trim();
             _User1.IsActive = cbIsActive.Checked;
 
-            if(_User1.Save())
+            if (Mode == enMode.Update)
+            {
+                int loggedInUserID = clsGlobal.CurrentUserLogedin.UserID;
+
+                if (clsGlobal.CurrentUserLogedin.IsActive != cbIsActive.Checked)
+                {
+                    MessageBox.Show("You can't change your activation status contact with admin",
+                                    "Access Denied", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+            }
+            if (_User1.Save())
             {
                 Mode = enMode.Update;
                 lbFormTitle.Text = "Update User";

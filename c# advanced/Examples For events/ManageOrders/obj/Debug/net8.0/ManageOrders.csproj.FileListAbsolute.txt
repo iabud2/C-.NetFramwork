@@ -1,0 +1,15 @@
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\ManageOrders\bin\Debug\net8.0\ManageOrders.exe
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\ManageOrders\bin\Debug\net8.0\ManageOrders.deps.json
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\ManageOrders\bin\Debug\net8.0\ManageOrders.runtimeconfig.json
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\ManageOrders\bin\Debug\net8.0\ManageOrders.dll
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\ManageOrders\bin\Debug\net8.0\ManageOrders.pdb
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\ManageOrders\obj\Debug\net8.0\ManageOrders.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\ManageOrders\obj\Debug\net8.0\ManageOrders.AssemblyInfoInputs.cache
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\ManageOrders\obj\Debug\net8.0\ManageOrders.AssemblyInfo.cs
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\ManageOrders\obj\Debug\net8.0\ManageOrders.csproj.CoreCompileInputs.cache
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\ManageOrders\obj\Debug\net8.0\ManageOrders.sourcelink.json
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\ManageOrders\obj\Debug\net8.0\ManageOrders.dll
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\ManageOrders\obj\Debug\net8.0\refint\ManageOrders.dll
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\ManageOrders\obj\Debug\net8.0\ManageOrders.pdb
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\ManageOrders\obj\Debug\net8.0\ManageOrders.genruntimeconfig.cache
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\ManageOrders\obj\Debug\net8.0\ref\ManageOrders.dll

@@ -62,6 +62,15 @@ namespace Project_DVLD_
             dtpDateOfBirth.MaxDate = DateTime.Now.AddYears(-18);
 
             cbCountries.SelectedIndex = cbCountries.FindString("Palestine");
+           
+            if (rbMale.Checked)
+            {
+                pbPersonImage.Image = Resources.defaultMale;
+            }
+            else
+            {
+                pbPersonImage.Image = Resources.defaultMale;
+            }
 
             tbFirstName.Text = "";
             tbSecondName.Text = "";
@@ -111,7 +120,7 @@ namespace Project_DVLD_
             else
             {
                 rbFemale.Checked = true;
-                pbPersonImage.Image = Resources.defaultfemale;
+                pbPersonImage.Image = Resources.defaultMale;
             }
 
             dtpDateOfBirth.Value = _Person.DateOfBirth;
@@ -151,8 +160,6 @@ namespace Project_DVLD_
                     {
                         //Handle the Erros as u like in case file doesn't deleted.
                     }
-
-
                 }
 
                 if(pbPersonImage.ImageLocation != null)
@@ -171,7 +178,7 @@ namespace Project_DVLD_
                     }
                 }
             }
-                return false;
+                return true;
         }
 
         private void btnSave_Click(object sender, EventArgs e)
@@ -335,5 +342,7 @@ namespace Project_DVLD_
         {
             this.Close();
         }
+
+
     }
 }

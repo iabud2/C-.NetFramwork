@@ -1,0 +1,15 @@
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\TempChanged\bin\Debug\net8.0\TempChanged.exe
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\TempChanged\bin\Debug\net8.0\TempChanged.deps.json
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\TempChanged\bin\Debug\net8.0\TempChanged.runtimeconfig.json
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\TempChanged\bin\Debug\net8.0\TempChanged.dll
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\TempChanged\bin\Debug\net8.0\TempChanged.pdb
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\TempChanged\obj\Debug\net8.0\TempChanged.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\TempChanged\obj\Debug\net8.0\TempChanged.AssemblyInfoInputs.cache
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\TempChanged\obj\Debug\net8.0\TempChanged.AssemblyInfo.cs
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\TempChanged\obj\Debug\net8.0\TempChanged.csproj.CoreCompileInputs.cache
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\TempChanged\obj\Debug\net8.0\TempChanged.sourcelink.json
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\TempChanged\obj\Debug\net8.0\TempChanged.dll
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\TempChanged\obj\Debug\net8.0\refint\TempChanged.dll
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\TempChanged\obj\Debug\net8.0\TempChanged.pdb
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\TempChanged\obj\Debug\net8.0\TempChanged.genruntimeconfig.cache
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\TempChanged\obj\Debug\net8.0\ref\TempChanged.dll

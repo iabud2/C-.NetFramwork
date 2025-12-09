@@ -1,0 +1,32 @@
+C:\Users\iabud\source\repos\c# advanced\obj\Debug\c# advanced.csproj.AssemblyReference.cache
+C:\Users\iabud\source\repos\c# advanced\obj\Debug\c__advanced.Properties.Resources.resources
+C:\Users\iabud\source\repos\c# advanced\obj\Debug\c# advanced.csproj.GenerateResource.cache
+C:\Users\iabud\source\repos\c# advanced\obj\Debug\c# advanced.csproj.CoreCompileInputs.cache
+C:\Users\iabud\source\repos\c# advanced\bin\Debug\c# advanced.exe.config
+C:\Users\iabud\source\repos\c# advanced\bin\Debug\c# advanced.exe
+C:\Users\iabud\source\repos\c# advanced\bin\Debug\c# advanced.pdb
+C:\Users\iabud\source\repos\c# advanced\obj\Debug\c# advanced.exe
+C:\Users\iabud\source\repos\c# advanced\obj\Debug\c# advanced.pdb
+C:\Users\iabud\source\repos\c# advanced\obj\Debug\c# advanced.exe.config
+C:\Users\iabud\source\repos\c# advanced\obj\Debug\c__advanced.delegation.frmDelegation1.resources
+C:\Users\iabud\source\repos\c# advanced\obj\Debug\c__advanced.delegation.frmDelegation2.resources
+C:\Users\iabud\source\repos\c# advanced\obj\Debug\c__advanced.main.resources
+C:\Users\iabud\source\repos\c# advanced\obj\Debug\c__advanced.frmSendData1.resources
+C:\Users\iabud\source\repos\c# advanced\obj\Debug\c__advanced.send_data_to_form.frmSendData2.resources
+C:\Users\iabud\Desktop\me\c#\c# advanced\bin\Debug\c# advanced.exe.config
+C:\Users\iabud\Desktop\me\c#\c# advanced\bin\Debug\c# advanced.exe
+C:\Users\iabud\Desktop\me\c#\c# advanced\bin\Debug\c# advanced.pdb
+C:\Users\iabud\Desktop\me\c#\c# advanced\obj\Debug\c# advanced.csproj.AssemblyReference.cache
+C:\Users\iabud\Desktop\me\c#\c# advanced\obj\Debug\c# advanced.exe.config
+C:\Users\iabud\Desktop\me\c#\c# advanced\obj\Debug\c__advanced.delegation.frmDelegation1.resources
+C:\Users\iabud\Desktop\me\c#\c# advanced\obj\Debug\c__advanced.delegation.frmDelegation2.resources
+C:\Users\iabud\Desktop\me\c#\c# advanced\obj\Debug\c__advanced.main.resources
+C:\Users\iabud\Desktop\me\c#\c# advanced\obj\Debug\c__advanced.Properties.Resources.resources
+C:\Users\iabud\Desktop\me\c#\c# advanced\obj\Debug\c__advanced.frmSendData1.resources
+C:\Users\iabud\Desktop\me\c#\c# advanced\obj\Debug\c__advanced.send_data_to_form.frmSendData2.resources
+C:\Users\iabud\Desktop\me\c#\c# advanced\obj\Debug\c# advanced.csproj.GenerateResource.cache
+C:\Users\iabud\Desktop\me\c#\c# advanced\obj\Debug\c# advanced.csproj.CoreCompileInputs.cache
+C:\Users\iabud\Desktop\me\c#\c# advanced\obj\Debug\c# advanced.exe
+C:\Users\iabud\Desktop\me\c#\c# advanced\obj\Debug\c# advanced.pdb
+C:\Users\iabud\Desktop\me\c#\c# advanced\obj\Debug\c__advanced.events.ctrlSimpleCalculator.resources
+C:\Users\iabud\Desktop\me\c#\c# advanced\obj\Debug\c__advanced.events.frmEvent1.resources

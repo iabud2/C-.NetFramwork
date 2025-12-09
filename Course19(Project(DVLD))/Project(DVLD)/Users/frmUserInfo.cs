@@ -20,12 +20,6 @@ namespace Project_DVLD_.Users
             _UserID = userID;
         }
 
-        private void btnClose_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-
 
         private void frmUserInfo_Load(object sender, EventArgs e)
         {
@@ -35,9 +29,5 @@ namespace Project_DVLD_.Users
             ucUserInformation1.LoadInformation(_UserID);
         }
 
-        private void btnClose2_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
     }
 }

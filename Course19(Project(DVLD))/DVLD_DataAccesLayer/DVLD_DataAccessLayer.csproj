@@ -44,7 +44,11 @@
     <Compile Include="Applications\ApplicationsDataLayer.cs" />
     <Compile Include="Applications\ApplicationsTypesDataLayer.cs" />
     <Compile Include="Applications\Local_DL_ApplicationsDataLayer.cs" />
+    <Compile Include="Drivers\DriversDataLayer.cs" />
+    <Compile Include="Licenses\DetainedLicensesDataLayer.cs" />
+    <Compile Include="Licenses\InternationalLicensesDataLayer.cs" />
     <Compile Include="Licenses\LicenseClassesDataLayer.cs" />
+    <Compile Include="Licenses\LicensesDataLayer.cs" />
     <Compile Include="People\CountriesDataAccess.cs" />
     <Compile Include="People\PeopleDataAccess.cs" />
     <Compile Include="DVLD_DataAccessSettings.cs" />

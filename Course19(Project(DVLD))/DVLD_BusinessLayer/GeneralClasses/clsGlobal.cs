@@ -74,11 +74,6 @@ namespace DVLD_BusinessLayer.GeneralClasses
                 MessageBox.Show("Error!, Can't retrive Login Info! :" + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
             }
-
-
-
-
-            return false;
         }
     }
 }

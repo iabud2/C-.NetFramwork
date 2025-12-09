@@ -1,0 +1,15 @@
+C:\Users\iabud\Desktop\me\c#\c# advanced\LambadExpression\bin\Debug\net8.0\LambadExpression.exe
+C:\Users\iabud\Desktop\me\c#\c# advanced\LambadExpression\bin\Debug\net8.0\LambadExpression.deps.json
+C:\Users\iabud\Desktop\me\c#\c# advanced\LambadExpression\bin\Debug\net8.0\LambadExpression.runtimeconfig.json
+C:\Users\iabud\Desktop\me\c#\c# advanced\LambadExpression\bin\Debug\net8.0\LambadExpression.dll
+C:\Users\iabud\Desktop\me\c#\c# advanced\LambadExpression\bin\Debug\net8.0\LambadExpression.pdb
+C:\Users\iabud\Desktop\me\c#\c# advanced\LambadExpression\obj\Debug\net8.0\LambadExpression.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iabud\Desktop\me\c#\c# advanced\LambadExpression\obj\Debug\net8.0\LambadExpression.AssemblyInfoInputs.cache
+C:\Users\iabud\Desktop\me\c#\c# advanced\LambadExpression\obj\Debug\net8.0\LambadExpression.AssemblyInfo.cs
+C:\Users\iabud\Desktop\me\c#\c# advanced\LambadExpression\obj\Debug\net8.0\LambadExpression.csproj.CoreCompileInputs.cache
+C:\Users\iabud\Desktop\me\c#\c# advanced\LambadExpression\obj\Debug\net8.0\LambadExpression.sourcelink.json
+C:\Users\iabud\Desktop\me\c#\c# advanced\LambadExpression\obj\Debug\net8.0\LambadExpression.dll
+C:\Users\iabud\Desktop\me\c#\c# advanced\LambadExpression\obj\Debug\net8.0\refint\LambadExpression.dll
+C:\Users\iabud\Desktop\me\c#\c# advanced\LambadExpression\obj\Debug\net8.0\LambadExpression.pdb
+C:\Users\iabud\Desktop\me\c#\c# advanced\LambadExpression\obj\Debug\net8.0\LambadExpression.genruntimeconfig.cache
+C:\Users\iabud\Desktop\me\c#\c# advanced\LambadExpression\obj\Debug\net8.0\ref\LambadExpression.dll

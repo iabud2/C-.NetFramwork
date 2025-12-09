@@ -138,8 +138,16 @@ namespace DVLD_BusinessLayer
             clsPerson Person1 = clsPerson.FindPersonByID(this.PersonID);
             return Person1.FirstName + " " + Person1.SecondName;
         }
-    
-    
+
+        public string GetFirstName()
+        {
+            clsPerson Person1 = clsPerson.FindPersonByID(this.PersonID);
+            return Person1.FirstName;
+        }
+
+
+
+
     }
 
 

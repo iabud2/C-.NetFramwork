@@ -37,7 +37,7 @@ namespace DVLD_DataAccesLayer.Applications
                     ApplicationStatus = (int)reader["ApplicationStatus"];
                     PaidFees = Convert.ToSingle(reader["PaidFees"]);
                     ApplicaitonType = (int)reader["ApplicationType"];
-                    LastStatusDate = (DateTime)(reader["LastStatusData"]);
+                    LastStatusDate = (DateTime)(reader["LastStatusDate"]);
                     CreatedBy = (int)reader["CreatedByUser"];
                 }
                 reader.Close();
@@ -130,23 +130,24 @@ namespace DVLD_DataAccesLayer.Applications
             SqlConnection connection = new SqlConnection(DVLD_DataAccessSettings.ConnectionString);
             string query = @"UPDATE Applications
                             SET
-                            (
+                            
                               ApplicationDate = @ApplicationDate,
                               PersonID = @PersonID,
                               ApplicationStatus = @ApplicationStatus,
                               PaidFees = @PaidFees,
                               ApplicationType = @ApplicationType,
-                              LastStatusDate = @LastStatusDate,
+                              LastStatusDate = @LSD,
                               CreatedByUser = @CreatedByUser         
-                            )
+                            
                             WHERE ApplicationID = @ID;";
             SqlCommand command = new SqlCommand(query, connection);
             command.Parameters.AddWithValue("@ID", ID);
             command.Parameters.AddWithValue("@ApplicationDate", ApplicationDate);
+            command.Parameters.AddWithValue("@PersonID", PersonID);
             command.Parameters.AddWithValue("@ApplicationStatus", ApplicationStatus);
             command.Parameters.AddWithValue("@PaidFees", PaidFees);
             command.Parameters.AddWithValue("@ApplicationType", ApplicationType);
-            command.Parameters.AddWithValue("@LastStatusDate", LastStatusDate);
+            command.Parameters.AddWithValue("@LSD", LastStatusDate);
             command.Parameters.AddWithValue("@CreatedByUser", CreatedByUser);
 
             try

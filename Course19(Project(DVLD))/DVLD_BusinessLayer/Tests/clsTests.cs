@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data;
 using DVLD_DataAccesLayer.Tests;
+using System.Xml.XPath;
+using System.Runtime.CompilerServices;
 
 namespace DVLD_BusinessLayer.Tests
 {
@@ -49,6 +51,20 @@ namespace DVLD_BusinessLayer.Tests
                 return null;
         }
 
+        static public clsTests GetTestInfoByAppointmentID(int AppointmentID)
+        {
+            int TestID = -1, CreatedBy = -1;
+            string Notes = "";
+            bool result = false;
+            if (TestsDataLayer.GetTestInfoByAppointmentId(AppointmentID, ref TestID, ref result, ref Notes, ref CreatedBy))
+            {
+                return (new clsTests(TestID, AppointmentID, result, Notes, CreatedBy));
+            }
+            else
+                return null;
+
+        }
+
         static public DataTable ListAllTests()
         {
             return (TestsDataLayer.ListAllTests());
@@ -73,10 +89,12 @@ namespace DVLD_BusinessLayer.Tests
 
         public bool Save()
         {
+            if (!clsTestsAppointments.LockAppointment(this.TestAppointmentID))
+                return false;
             switch (Mode)
             {
                 case enMode.AddNew:
-                {
+                {   
                   if (_AddNewTest())
                   {
                       Mode = enMode.Update;

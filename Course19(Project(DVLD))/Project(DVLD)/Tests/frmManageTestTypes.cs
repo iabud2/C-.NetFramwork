@@ -44,6 +44,8 @@ namespace Project_DVLD_.Tests
 
             dgvTestTypes.Columns[3].Width = 105;
             dgvTestTypes.Columns[3].HeaderText = "Test Fees";
+
+            lbRecords.Text = "Total Records: " + dgvTestTypes.Rows.Count.ToString();
         }
 
         private void btnClose_Click(object sender, EventArgs e)

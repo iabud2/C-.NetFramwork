@@ -45,7 +45,11 @@
     <Compile Include="Application\clsApplications.cs" />
     <Compile Include="Application\clsApplicationTypes.cs" />
     <Compile Include="Application\cls_LDLA.cs" />
+    <Compile Include="Drivers\clsDrivers.cs" />
+    <Compile Include="Licenses\clsInternationalLicenses.cs" />
     <Compile Include="Licenses\clsLicenseClasses.cs" />
+    <Compile Include="Licenses\clsLicenses.cs" />
+    <Compile Include="Licenses\clsDetainedLicenses.cs" />
     <Compile Include="People\clsCountries.cs" />
     <Compile Include="People\clsPerson.cs" />
     <Compile Include="People\clsUsers.cs" />
@@ -56,6 +60,9 @@
     <Compile Include="Tests\clsTests.cs" />
     <Compile Include="Tests\clsTestsAppointments.cs" />
     <Compile Include="Tests\clsTestTypes.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DVLD_DataAccesLayer\DVLD_DataAccessLayer.csproj">

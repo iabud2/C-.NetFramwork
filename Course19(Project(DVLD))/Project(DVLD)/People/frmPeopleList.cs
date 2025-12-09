@@ -1,4 +1,5 @@
 ﻿using DVLD_BusinessLayer;
+using DVLD_BusinessLayer.GeneralClasses;
 using Project_DVLD_.People;
 using System;
 using System.Collections.Generic;
@@ -18,18 +19,13 @@ namespace Project_DVLD_
         DataTable _People = _dtPeopleList.DefaultView.ToTable(false, "PersonID", "NationalNo", "FirstName", "SecondName", "ThirdName",
                                             "LastName", "DateOfBirth", "GendorCaption", "Address", "Phone", "Email", "CountryName"); 
 
-
-
         public frmPeopleList()
         {
             InitializeComponent();
-        }
-
-        private void frmManagePeople_Load(object sender, EventArgs e)
-        {
             _RefreshPeopleTable();
             cbFilterBy.SelectedIndex = 0;
         }
+
 
         private void _RefreshPeopleTable()
         {
@@ -38,7 +34,7 @@ namespace Project_DVLD_
                                             "LastName", "DateOfBirth", "GendorCaption", "Address", "Phone", "Email", "CountryName");
             
             dgvPeopleList.DataSource = _People;
-            lblPeopleCount.Text = _People.Rows.Count.ToString() + " Record(s)";
+            lbRecords.Text = _People.Rows.Count.ToString() + " Record(s)";
         }
 
         private void btnAddNew_Click(object sender, EventArgs e)
@@ -46,11 +42,6 @@ namespace Project_DVLD_
             Form frmAddPerson = new frmAddUpdatePerson();
             frmAddPerson.ShowDialog();
             _RefreshPeopleTable();
-        }
-
-        private void btnClose_Click(object sender, EventArgs e)
-        {
-            this.Close();
         }
 
 
@@ -87,10 +78,32 @@ namespace Project_DVLD_
             tbSearch.Visible = (cbFilterBy.Text != "None");
             lbSearch.Visible = (cbFilterBy.Text != "None");
 
-            if(tbSearch.Visible)
+            if(cbFilterBy.Text == "None")
             {
+                tbSearch.Visible = false;
+                lbSearch.Visible = false;
+                tbSearch.Text = string.Empty;
+                _dtPeopleList.DefaultView.RowFilter = "";
+                lbRecords.Text = _People.Rows.Count.ToString();
+            }
+            else if(cbFilterBy.Text == "Gendor")
+            {
+                tbSearch.Visible = false;
+                lbSearch.Visible = false;
+                tbSearch.Text = string.Empty;
+                cbGendor.Visible = true;
+                _dtPeopleList.DefaultView.RowFilter = "";
+                lbRecords.Text = _People.Rows.Count.ToString();
+            }
+            else
+            {
+                cbGendor.Visible = false;
+                tbSearch.Visible = true;
+                lbSearch.Visible = true;
                 tbSearch.Text = string.Empty;
                 tbSearch.Focus();
+                _dtPeopleList.DefaultView.RowFilter = "";
+                lbRecords.Text = _People.Rows.Count.ToString();
             }
         }
 
@@ -135,10 +148,6 @@ namespace Project_DVLD_
                     FilterColumn = "Email";
                     break;
 
-                case "Gendor":
-                    FilterColumn = "GendorCaption";
-                    break;
-
                 case "Country":
                     FilterColumn = "CountryName";
                     break;
@@ -147,16 +156,19 @@ namespace Project_DVLD_
             if(cbFilterBy.Text == "None" || tbSearch.Text.Trim() == "")
             {
                 _People.DefaultView.RowFilter = "";
+                lbRecords.Text = _People.Rows.Count.ToString();
                 return;
             }
 
             if(FilterColumn == "PersonID")
             {
                 _People.DefaultView.RowFilter = string.Format("[{0}] = {1}", FilterColumn, tbSearch.Text.Trim());
+                lbRecords.Text = dgvPeopleList.Rows.Count.ToString();
             }
             else
             {
                 _People.DefaultView.RowFilter = string.Format("[{0}] LIKE '{1}%'", FilterColumn, tbSearch.Text.Trim());
+                lbRecords.Text = dgvPeopleList.Rows.Count.ToString();
             }
 
                 
@@ -164,9 +176,13 @@ namespace Project_DVLD_
 
         private void tbSearch_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if(cbFilterBy.Text == "PersonID")
+            if(cbFilterBy.Text == "PersonID" || cbFilterBy.Text == "Phone")
             {
                 e.Handled = (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar));
+            }
+            if(cbFilterBy.Text == "Country")
+            {
+                e.Handled = (!char.IsControl(e.KeyChar) && !char.IsLetter(e.KeyChar) && !char.IsWhiteSpace(e.KeyChar));
             }
         }
 
@@ -183,6 +199,37 @@ namespace Project_DVLD_
             frm.ShowDialog();
         }
 
+        private void cbGendor_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string Filter = "GendorCaption";
+            if(cbGendor.Text == "Male")
+            {
+                _People.DefaultView.RowFilter = string.Format("[{0}] LIKE '{1}%'", Filter, cbGendor.Text);
+                lbRecords.Text = dgvPeopleList.Rows.Count.ToString();
+            }
+            else
+            {
+                _People.DefaultView.RowFilter = string.Format("[{0}] LIKE '{1}%'", Filter, cbGendor.Text);
+                lbRecords.Text = dgvPeopleList.Rows.Count.ToString();
+            }
 
+
+        }
+
+        private void sendEmailToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Not Implemented Yet!", "Not Implemented", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void phoneCallToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Not Implemented Yet!", "Not Implemented", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void frmPeopleList_Load(object sender, EventArgs e)
+        {
+            pbUserImage.ImageLocation = clsPerson.FindPersonByID(clsGlobal.CurrentUserLogedin.PersonID).ImagePath;
+            lbUserName.Text = clsGlobal.CurrentUserLogedin.UserName;
+        }
     }
 }

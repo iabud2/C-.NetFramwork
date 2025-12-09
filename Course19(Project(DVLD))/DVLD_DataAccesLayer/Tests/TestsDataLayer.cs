@@ -49,6 +49,39 @@ namespace DVLD_DataAccesLayer.Tests
             return isFound;
         }
 
+        static public bool GetTestInfoByAppointmentId(int AppointmentID, ref int TestID, ref bool TestResult, ref string Notes, ref int CreatedBy)
+        {
+            bool IsFound = false;
+            SqlConnection Connection = new SqlConnection(DVLD_DataAccessSettings.ConnectionString);
+            string Query = @"SELECT * FROM Tests 
+                                WHERE TestAppointmentID = @AppointmentID;";
+            SqlCommand Command = new SqlCommand(Query, Connection);
+            Command.Parameters.AddWithValue("@AppointmentID", AppointmentID);
+
+            try
+            {
+                Connection.Open();
+                SqlDataReader reader = Command.ExecuteReader();
+                if(reader.Read())
+                {
+                    IsFound = true;
+                    TestID = (int)reader["TestID"];
+                    TestResult = (bool)reader["TestResult"];
+                    Notes = reader["Notes"].ToString();
+                    CreatedBy = (int)reader["CreatedByUserID"];
+                }
+                reader.Close();
+            }
+            catch (Exception e) 
+            {
+                //Type Your Exception Here.
+            }
+            finally
+            {
+                Connection.Close();
+            }
+            return IsFound;    
+        }
         public static DataTable ListAllTests()
         {
             DataTable dt = new DataTable();
@@ -83,7 +116,7 @@ namespace DVLD_DataAccesLayer.Tests
         {
             int NewID = -1;
             SqlConnection Connection = new SqlConnection(DVLD_DataAccessSettings.ConnectionString);
-            string Query = @"INSERT INTO Test
+            string Query = @"INSERT INTO Tests
                             (TestAppointmentID, TestResult, Notes, CreatedByUserID)
                             VALUES
                             (@TestAppointmentID, @TestResult, @Notes, @CreatedByUser);

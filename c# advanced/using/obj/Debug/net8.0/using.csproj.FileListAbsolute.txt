@@ -1,0 +1,15 @@
+C:\Users\iabud\Desktop\me\c#\c# advanced\using\bin\Debug\net8.0\using.exe
+C:\Users\iabud\Desktop\me\c#\c# advanced\using\bin\Debug\net8.0\using.deps.json
+C:\Users\iabud\Desktop\me\c#\c# advanced\using\bin\Debug\net8.0\using.runtimeconfig.json
+C:\Users\iabud\Desktop\me\c#\c# advanced\using\bin\Debug\net8.0\using.dll
+C:\Users\iabud\Desktop\me\c#\c# advanced\using\bin\Debug\net8.0\using.pdb
+C:\Users\iabud\Desktop\me\c#\c# advanced\using\obj\Debug\net8.0\using.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iabud\Desktop\me\c#\c# advanced\using\obj\Debug\net8.0\using.AssemblyInfoInputs.cache
+C:\Users\iabud\Desktop\me\c#\c# advanced\using\obj\Debug\net8.0\using.AssemblyInfo.cs
+C:\Users\iabud\Desktop\me\c#\c# advanced\using\obj\Debug\net8.0\using.csproj.CoreCompileInputs.cache
+C:\Users\iabud\Desktop\me\c#\c# advanced\using\obj\Debug\net8.0\using.sourcelink.json
+C:\Users\iabud\Desktop\me\c#\c# advanced\using\obj\Debug\net8.0\using.dll
+C:\Users\iabud\Desktop\me\c#\c# advanced\using\obj\Debug\net8.0\refint\using.dll
+C:\Users\iabud\Desktop\me\c#\c# advanced\using\obj\Debug\net8.0\using.pdb
+C:\Users\iabud\Desktop\me\c#\c# advanced\using\obj\Debug\net8.0\using.genruntimeconfig.cache
+C:\Users\iabud\Desktop\me\c#\c# advanced\using\obj\Debug\net8.0\ref\using.dll

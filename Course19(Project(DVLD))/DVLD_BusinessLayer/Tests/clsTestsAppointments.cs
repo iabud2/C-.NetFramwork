@@ -43,7 +43,7 @@ namespace DVLD_BusinessLayer.Tests
             Mode = enMode.Update;
         }
 
-        public clsTestsAppointments GetAppointmentDetails(int appointmentID)
+        static public clsTestsAppointments GetAppointmentDetails(int appointmentID)
         {
             int ldlaID = -1, testTypeID = -1, createdby = -1;
             DateTime appointmentDate = DateTime.Now;
@@ -53,7 +53,7 @@ namespace DVLD_BusinessLayer.Tests
             if (TestsAppointmentsDataLayer.GetTestAppointmentInfo(appointmentID, ref ldlaID, ref testTypeID, ref appointmentDate, 
                                             ref paidFees, ref islocked, ref createdby))
             {
-                return new clsTestsAppointments(appointmentID, ldlaID, testTypeID, appointmentDate, paidFees, isLocked, createdby);
+                return new clsTestsAppointments(appointmentID, ldlaID, testTypeID, appointmentDate, paidFees, islocked, createdby);
             }
             return null;
         }
@@ -61,6 +61,11 @@ namespace DVLD_BusinessLayer.Tests
         static public DataTable ListAllAppointments()
         {
             return(TestsAppointmentsDataLayer.ListAllAppointments());
+        }
+
+        static public DataTable ListAllAppointmentsForLDLA(int ldla_ID)
+        {
+            return (TestsAppointmentsDataLayer.GetAppointmentsListFor_LDLA(ldla_ID));
         }
 
         private bool _AddNewAppointment()
@@ -79,6 +84,16 @@ namespace DVLD_BusinessLayer.Tests
         static public bool DeleteAppointment(int appointmentID)
         {
             return (TestsAppointmentsDataLayer.DeleteAppointment(appointmentID));
+        }
+
+        static public DataTable GetAppointmentsListPerTestTypeForLDLA(int ldla_ID, clsTestTypes.enTestType TestType)
+        {
+            return (TestsAppointmentsDataLayer.GetAppointmentListPerTestTypeForLDLA(ldla_ID, (int)TestType));
+        }
+
+        static public bool LockAppointment(int AppointmentID)
+        {
+            return (TestsAppointmentsDataLayer.LockAppointment(AppointmentID));
         }
 
         public bool Save()

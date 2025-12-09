@@ -93,16 +93,16 @@ namespace DVLD_BusinessLayer.Application
 
         private bool AddNewLDLA()
         {
-            int NewID = Local_DL_ApplicationsDataLayer.AddNew_LDLA(this.ApplicationID, this.LicenseClassID);
-            return (NewID != -1);
+            this.LDLA_ID = Local_DL_ApplicationsDataLayer.AddNew_LDLA(this.ApplicationID, this.LicenseClassID);
+            return (this.LDLA_ID != -1);
         }
 
         private bool UpdateLDLA()
         {
-            return (Local_DL_ApplicationsDataLayer.Update_LDLA(this.LDLA_ID, this.ApplicationID, this.LicenseClassID));
+            return (Local_DL_ApplicationsDataLayer.Update_LDLA(this.LDLA_ID, this.LicenseClassID));
         }
 
-        private bool DeleteLDLA()
+        public bool DeleteLDLA()
         {
             bool IsLDLA_Deleted = false;
             bool IsBaseApplicationDeleted = false;
@@ -115,15 +115,35 @@ namespace DVLD_BusinessLayer.Application
             return IsBaseApplicationDeleted;
         }
 
-        static public bool DoesPassTestType(int ldlaID,clsTestTypes.enTestType TestTypeID)
+        static public bool DoesPassTestType(int ldlaID,clsTestTypes.enTestType testType)
         {
-            return (Local_DL_ApplicationsDataLayer.DoesPassTestType(ldlaID, (int)TestTypeID));
+            return (Local_DL_ApplicationsDataLayer.DoesPassTestType(ldlaID, (int)testType));
         }
-        public bool DoesPassTestType(clsTestTypes.enTestType TestTypeID)
+        public bool DoesPassTestType(clsTestTypes.enTestType testType)
         {
-            return (Local_DL_ApplicationsDataLayer.DoesPassTestType(this.LDLA_ID, (int)TestTypeID));
+            return (Local_DL_ApplicationsDataLayer.DoesPassTestType(this.LDLA_ID, (int)testType));
         }
 
+        public bool DoesPersonAttendTestType(clsTestTypes.enTestType testType)
+        {
+            return (Local_DL_ApplicationsDataLayer.isPersonAttendTestType(this.LDLA_ID, (int)testType));
+        }
+
+        static public bool DoesPersonAttendtestType(int ldla_ID, clsTestTypes.enTestType testType)
+        {
+            return (Local_DL_ApplicationsDataLayer.isPersonAttendTestType(ldla_ID, (int)testType));
+        }
+
+
+        static public int TotalTrialPerTest(int LDLA_ID, clsTestTypes.enTestType testType)
+        {
+            return (Local_DL_ApplicationsDataLayer.TotalTrailsPerTest(LDLA_ID, (int)testType));
+        }
+
+        public int TotalTrialPerTest(clsTestTypes.enTestType testType)
+        {
+            return (Local_DL_ApplicationsDataLayer.TotalTrailsPerTest(this.LDLA_ID, (int)testType));
+        }
         public bool DoesPassPreviousTestType(clsTestTypes.enTestType CurrentTest)
         {
             switch (CurrentTest)
@@ -137,6 +157,26 @@ namespace DVLD_BusinessLayer.Application
                 default:
                     return false;
             }
+        }
+
+        static public bool IsThereAnActiveScheduledTest(int ldla_ID, clsTestTypes.enTestType testType)
+        {
+            return (Local_DL_ApplicationsDataLayer.IsThereAnActiveScheduledTest(ldla_ID, (int)testType));
+        }
+
+        public bool IsThereAnActiveScheduledTest(clsTestTypes.enTestType testType)
+        {
+            return (Local_DL_ApplicationsDataLayer.IsThereAnActiveScheduledTest(this.LDLA_ID, (int)testType));
+        }
+
+        public int TotalPassedTests()
+        {
+            return (Local_DL_ApplicationsDataLayer.TotalPassedTests(this.LDLA_ID));
+        }
+
+        static public int TotalPassedTests(int LDLA_ID)
+        {
+            return (Local_DL_ApplicationsDataLayer.TotalPassedTests(LDLA_ID));
         }
 
         public bool Save()

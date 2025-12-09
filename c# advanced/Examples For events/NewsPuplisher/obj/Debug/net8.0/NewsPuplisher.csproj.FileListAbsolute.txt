@@ -1,0 +1,15 @@
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\NewsPuplisher\bin\Debug\net8.0\NewsPuplisher.exe
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\NewsPuplisher\bin\Debug\net8.0\NewsPuplisher.deps.json
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\NewsPuplisher\bin\Debug\net8.0\NewsPuplisher.runtimeconfig.json
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\NewsPuplisher\bin\Debug\net8.0\NewsPuplisher.dll
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\NewsPuplisher\bin\Debug\net8.0\NewsPuplisher.pdb
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\NewsPuplisher\obj\Debug\net8.0\NewsPuplisher.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\NewsPuplisher\obj\Debug\net8.0\NewsPuplisher.AssemblyInfoInputs.cache
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\NewsPuplisher\obj\Debug\net8.0\NewsPuplisher.AssemblyInfo.cs
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\NewsPuplisher\obj\Debug\net8.0\NewsPuplisher.csproj.CoreCompileInputs.cache
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\NewsPuplisher\obj\Debug\net8.0\NewsPuplisher.sourcelink.json
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\NewsPuplisher\obj\Debug\net8.0\NewsPuplisher.dll
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\NewsPuplisher\obj\Debug\net8.0\refint\NewsPuplisher.dll
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\NewsPuplisher\obj\Debug\net8.0\NewsPuplisher.pdb
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\NewsPuplisher\obj\Debug\net8.0\NewsPuplisher.genruntimeconfig.cache
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\NewsPuplisher\obj\Debug\net8.0\ref\NewsPuplisher.dll

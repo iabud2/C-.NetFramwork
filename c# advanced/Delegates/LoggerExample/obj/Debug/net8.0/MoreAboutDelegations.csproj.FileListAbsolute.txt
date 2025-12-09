@@ -1,0 +1,15 @@
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\MoreAboutDelegations\obj\Debug\net8.0\MoreAboutDelegations.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\MoreAboutDelegations\obj\Debug\net8.0\MoreAboutDelegations.AssemblyInfoInputs.cache
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\MoreAboutDelegations\obj\Debug\net8.0\MoreAboutDelegations.AssemblyInfo.cs
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\MoreAboutDelegations\obj\Debug\net8.0\MoreAboutDelegations.csproj.CoreCompileInputs.cache
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\MoreAboutDelegations\obj\Debug\net8.0\MoreAboutDelegations.sourcelink.json
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\MoreAboutDelegations\bin\Debug\net8.0\MoreAboutDelegations.exe
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\MoreAboutDelegations\bin\Debug\net8.0\MoreAboutDelegations.deps.json
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\MoreAboutDelegations\bin\Debug\net8.0\MoreAboutDelegations.runtimeconfig.json
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\MoreAboutDelegations\bin\Debug\net8.0\MoreAboutDelegations.dll
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\MoreAboutDelegations\bin\Debug\net8.0\MoreAboutDelegations.pdb
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\MoreAboutDelegations\obj\Debug\net8.0\MoreAboutDelegations.dll
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\MoreAboutDelegations\obj\Debug\net8.0\refint\MoreAboutDelegations.dll
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\MoreAboutDelegations\obj\Debug\net8.0\MoreAboutDelegations.pdb
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\MoreAboutDelegations\obj\Debug\net8.0\MoreAboutDelegations.genruntimeconfig.cache
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\MoreAboutDelegations\obj\Debug\net8.0\ref\MoreAboutDelegations.dll

@@ -73,11 +73,10 @@
             this.tbFirstName = new System.Windows.Forms.TextBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.lbTitle = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbPersonImage)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
@@ -90,8 +89,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label2
@@ -103,7 +102,7 @@
             this.label2.Location = new System.Drawing.Point(12, 101);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(90, 19);
-            this.label2.TabIndex = 1;
+            this.label2.TabIndex = 16;
             this.label2.Text = "PersonID:";
             // 
             // lblPersonID
@@ -115,12 +114,13 @@
             this.lblPersonID.Location = new System.Drawing.Point(154, 102);
             this.lblPersonID.Name = "lblPersonID";
             this.lblPersonID.Size = new System.Drawing.Size(39, 18);
-            this.lblPersonID.TabIndex = 2;
+            this.lblPersonID.TabIndex = 17;
             this.lblPersonID.Text = "N/A";
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Transparent;
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.btnRemoveImage);
             this.panel1.Controls.Add(this.btbSave);
             this.panel1.Controls.Add(this.btnClose);
@@ -161,7 +161,7 @@
             this.panel1.Location = new System.Drawing.Point(16, 149);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1073, 446);
-            this.panel1.TabIndex = 0;
+            this.panel1.TabIndex = 34;
             // 
             // btnRemoveImage
             // 
@@ -175,7 +175,7 @@
             this.btnRemoveImage.Location = new System.Drawing.Point(840, 321);
             this.btnRemoveImage.Name = "btnRemoveImage";
             this.btnRemoveImage.Size = new System.Drawing.Size(197, 23);
-            this.btnRemoveImage.TabIndex = 38;
+            this.btnRemoveImage.TabIndex = 13;
             this.btnRemoveImage.Text = "Remove Image";
             this.btnRemoveImage.UseVisualStyleBackColor = false;
             this.btnRemoveImage.Click += new System.EventHandler(this.btnRemoveImage_Click);
@@ -195,7 +195,7 @@
             this.btbSave.Location = new System.Drawing.Point(719, 389);
             this.btbSave.Name = "btbSave";
             this.btbSave.Size = new System.Drawing.Size(85, 43);
-            this.btbSave.TabIndex = 13;
+            this.btbSave.TabIndex = 15;
             this.btbSave.Text = "       Save";
             this.btbSave.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btbSave.UseVisualStyleBackColor = false;
@@ -204,6 +204,7 @@
             // btnClose
             // 
             this.btnClose.BackColor = System.Drawing.Color.White;
+            this.btnClose.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnClose.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.btnClose.FlatAppearance.BorderSize = 2;
             this.btnClose.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
@@ -257,7 +258,7 @@
             this.label15.Location = new System.Drawing.Point(836, 33);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(73, 19);
-            this.label15.TabIndex = 33;
+            this.label15.TabIndex = 31;
             this.label15.Text = "Picture:";
             // 
             // tbAddress
@@ -296,6 +297,7 @@
             this.cbCountries.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbCountries.ForeColor = System.Drawing.Color.Black;
             this.cbCountries.FormattingEnabled = true;
+            this.cbCountries.ItemHeight = 13;
             this.cbCountries.Location = new System.Drawing.Point(576, 207);
             this.cbCountries.Name = "cbCountries";
             this.cbCountries.Size = new System.Drawing.Size(203, 21);
@@ -319,7 +321,7 @@
             this.label13.Location = new System.Drawing.Point(448, 205);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(79, 19);
-            this.label13.TabIndex = 27;
+            this.label13.TabIndex = 29;
             this.label13.Text = "Country:";
             // 
             // pictureBox8
@@ -359,7 +361,7 @@
             this.label12.Location = new System.Drawing.Point(24, 205);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(60, 19);
-            this.label12.TabIndex = 23;
+            this.label12.TabIndex = 28;
             this.label12.Text = "Email:";
             // 
             // tbPhone
@@ -379,7 +381,7 @@
             this.label11.Location = new System.Drawing.Point(461, 152);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(66, 19);
-            this.label11.TabIndex = 21;
+            this.label11.TabIndex = 27;
             this.label11.Text = "Phone:";
             // 
             // panelGendor
@@ -391,7 +393,7 @@
             this.panelGendor.Location = new System.Drawing.Point(104, 149);
             this.panelGendor.Name = "panelGendor";
             this.panelGendor.Size = new System.Drawing.Size(241, 30);
-            this.panelGendor.TabIndex = 20;
+            this.panelGendor.TabIndex = 26;
             this.panelGendor.WrapContents = false;
             // 
             // pictureBox5
@@ -449,7 +451,7 @@
             this.label10.Location = new System.Drawing.Point(24, 152);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(74, 19);
-            this.label10.TabIndex = 19;
+            this.label10.TabIndex = 25;
             this.label10.Text = "Gendor:";
             // 
             // dtpDateOfBirth
@@ -477,7 +479,7 @@
             this.label9.Location = new System.Drawing.Point(407, 88);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(120, 19);
-            this.label9.TabIndex = 16;
+            this.label9.TabIndex = 24;
             this.label9.Text = "Date of Birth:";
             // 
             // pictureBox3
@@ -508,7 +510,7 @@
             this.label8.Location = new System.Drawing.Point(24, 88);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(106, 19);
-            this.label8.TabIndex = 14;
+            this.label8.TabIndex = 23;
             this.label8.Text = "NationalNo:";
             // 
             // label7
@@ -519,7 +521,7 @@
             this.label7.Location = new System.Drawing.Point(138, 10);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(45, 19);
-            this.label7.TabIndex = 13;
+            this.label7.TabIndex = 19;
             this.label7.Text = "First:";
             // 
             // label6
@@ -530,7 +532,7 @@
             this.label6.Location = new System.Drawing.Point(305, 10);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(66, 19);
-            this.label6.TabIndex = 12;
+            this.label6.TabIndex = 20;
             this.label6.Text = "Second:";
             // 
             // label5
@@ -541,7 +543,7 @@
             this.label5.Location = new System.Drawing.Point(474, 10);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(53, 19);
-            this.label5.TabIndex = 11;
+            this.label5.TabIndex = 21;
             this.label5.Text = "Third:";
             // 
             // label4
@@ -552,7 +554,7 @@
             this.label4.Location = new System.Drawing.Point(654, 10);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(43, 19);
-            this.label4.TabIndex = 10;
+            this.label4.TabIndex = 22;
             this.label4.Text = "Last:";
             // 
             // tbSecondName
@@ -608,19 +610,8 @@
             this.label3.Location = new System.Drawing.Point(24, 29);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(62, 19);
-            this.label3.TabIndex = 4;
+            this.label3.TabIndex = 18;
             this.label3.Text = "Name:";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(108, 100);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(40, 23);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
             // 
             // errorProvider1
             // 
@@ -642,15 +633,26 @@
             this.lbTitle.Location = new System.Drawing.Point(373, 9);
             this.lbTitle.Name = "lbTitle";
             this.lbTitle.Size = new System.Drawing.Size(349, 61);
-            this.lbTitle.TabIndex = 0;
+            this.lbTitle.TabIndex = 32;
             this.lbTitle.Text = "Add New Person";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(108, 100);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(40, 23);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
             // 
             // frmAddUpdatePerson
             // 
             this.AcceptButton = this.btbSave;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DarkGray;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.CancelButton = this.btnClose;
             this.ClientSize = new System.Drawing.Size(1101, 607);
             this.Controls.Add(this.panel1);
@@ -659,9 +661,10 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lbTitle);
             this.DoubleBuffered = true;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmAddUpdatePerson";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "AddNew";
             this.Load += new System.EventHandler(this.frmAddUpdatePerson_Load);
             this.panel1.ResumeLayout(false);
@@ -678,8 +681,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -710,7 +713,6 @@
         private System.Windows.Forms.FlowLayoutPanel panelGendor;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox6;
-        private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.RadioButton rbMale;
         private System.Windows.Forms.RadioButton rbFemale;
         private System.Windows.Forms.TextBox tbEmail;

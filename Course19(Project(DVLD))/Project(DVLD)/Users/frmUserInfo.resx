@@ -117,21 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="btnClose2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vAAADrwBlbxySQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAI9SURBVFhHxZbL
-        ihNBFIY72aigsxMUd5JkEZgBH8bbuyQBNwriNt4meYFcHsKNirgQfANNIOpSBWdclP9XJKG76/Qt6TE/
-        fNBUna5z6nbqRBV0JB6KU/FBfBfna/im7bV4IK6J2tQRY/FbuJJgOxJtsbOuiGfir7CclIHVeSoui0oi
-        8s/CGnQX3ombopTuCPbUGmgfvooTkStmfhHONxDEDWGKffokrB/r5KPgfAXiwAU/NBoNNxgM3Gw2c61W
-        K+hPg818Pnf9ft//a9mIRyIhrlpw2hlgOBy6jVarlet2uwmbOO122y0Wi7W1c+Px2DWbTcv2p0hsBfc8
-        MGTmaS2XS9fpdAJb2uhLi5VI2655LrzIcGaSYdktpYPIco4mk0lizBi/hM+YpFfLwO9n1sCbIPKc015w
-        bu4Ln9utTk+Rg7y++Cpl8Er4R8Tq3JI+XEUqOqwxyJDRj1hDJmWDqOAcvonoLNaQS1EQFZ3DH3H4AA6+
-        BQc/hJRRVqfngq/hS+FrOKvzfySiuyK6KkiLgQGvmqX07PKCmE6niTFj4BPfXhSQgVEdj1Gv1wts17D1
-        W1EJUUAmjPZ9jkejUdZzzNW/LRKieg2MCYJZsJQF++nBBlv+ySlInohAlGRcC+uHOnkrLglTVClfhPVj
-        HSzFLZErSmeqV2uAfWBix6KUros3whpoF1j2zHI8S+wT1auZI0rCaX8sMve8jIicArJKINhS7QRXbR+R
-        tajhyN/vBS8ZMwS+aXsh7olthstXFP0D2XdKcY3Ht90AAAAASUVORK5CYII=
-</value>
-  </data>
+  <metadata name="ucUserInformation1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lbFormTitle.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
 </root>

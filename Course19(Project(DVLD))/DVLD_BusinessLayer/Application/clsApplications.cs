@@ -15,7 +15,7 @@ namespace DVLD_BusinessLayer.Application
         protected enum enMode { AddNew = 0, Update = 1 }
       
         public enum enApplicaionType { NewDrivingLicense = 1, RenewDrivinLicense = 2, ReplaceLostDrivingLicense = 3, ReplaceForDamagedDrivingLicense = 4,
-                                ReleaseDetainedDrivingLicense = 5, NewInternationalDrivingLicense = 6, RetakeTest = 7}
+                                ReleaseDetainedDrivingLicense = 5, NewInternationalDrivingLicense = 6, RetakeTest = 8}
 
         public enum enApplicationStatus { New = 1, Cancelled = 2, Completed = 3 }
 
@@ -175,33 +175,6 @@ namespace DVLD_BusinessLayer.Application
         {
             return (ApplicationsDataLayer.GetActiveApplicationIDForLicenseClass(this.PersonID, (int)ApplicationType, LicenseClassID));
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         public bool Save()
         {

@@ -46,19 +46,19 @@
             this.phoneCallToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cbFilterBy = new System.Windows.Forms.ComboBox();
             this.tbSearch = new System.Windows.Forms.TextBox();
-            this.btnClose = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.btnAddNewPerson = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.lbSearch = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.lblPeopleCount = new System.Windows.Forms.Label();
+            this.pbUserImage = new System.Windows.Forms.PictureBox();
+            this.lbUserName = new System.Windows.Forms.Label();
+            this.lbRecords = new System.Windows.Forms.Label();
+            this.cbGendor = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPeopleList)).BeginInit();
             this.contextMenuStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbUserImage)).BeginInit();
             this.SuspendLayout();
             // 
             // dgvPeopleList
@@ -106,7 +106,7 @@
             dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dgvPeopleList.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.dgvPeopleList.Size = new System.Drawing.Size(1248, 419);
-            this.dgvPeopleList.TabIndex = 0;
+            this.dgvPeopleList.TabIndex = 3;
             this.dgvPeopleList.CellContentDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvPeopleList_CellContentDoubleClick);
             this.dgvPeopleList.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvPeopleList_CellContentDoubleClick);
             // 
@@ -177,6 +177,7 @@
             this.sendEmailToolStripMenuItem.Name = "sendEmailToolStripMenuItem";
             this.sendEmailToolStripMenuItem.Size = new System.Drawing.Size(178, 38);
             this.sendEmailToolStripMenuItem.Text = "&Send Email";
+            this.sendEmailToolStripMenuItem.Click += new System.EventHandler(this.sendEmailToolStripMenuItem_Click);
             // 
             // phoneCallToolStripMenuItem
             // 
@@ -185,6 +186,7 @@
             this.phoneCallToolStripMenuItem.Name = "phoneCallToolStripMenuItem";
             this.phoneCallToolStripMenuItem.Size = new System.Drawing.Size(178, 38);
             this.phoneCallToolStripMenuItem.Text = "&Phone Call";
+            this.phoneCallToolStripMenuItem.Click += new System.EventHandler(this.phoneCallToolStripMenuItem_Click);
             // 
             // cbFilterBy
             // 
@@ -208,7 +210,7 @@
             this.cbFilterBy.Location = new System.Drawing.Point(514, 182);
             this.cbFilterBy.Name = "cbFilterBy";
             this.cbFilterBy.Size = new System.Drawing.Size(416, 31);
-            this.cbFilterBy.TabIndex = 3;
+            this.cbFilterBy.TabIndex = 0;
             this.cbFilterBy.SelectedIndexChanged += new System.EventHandler(this.cbFilterBy_SelectedIndexChanged);
             // 
             // tbSearch
@@ -223,25 +225,6 @@
             this.tbSearch.TabIndex = 5;
             this.tbSearch.TextChanged += new System.EventHandler(this.tbSearch_TextChanged);
             this.tbSearch.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbSearch_KeyPress);
-            // 
-            // btnClose
-            // 
-            this.btnClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnClose.BackColor = System.Drawing.Color.Transparent;
-            this.btnClose.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnClose.BackgroundImage")));
-            this.btnClose.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnClose.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btnClose.FlatAppearance.BorderSize = 0;
-            this.btnClose.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DimGray;
-            this.btnClose.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
-            this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClose.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClose.Location = new System.Drawing.Point(1215, 12);
-            this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(45, 45);
-            this.btnClose.TabIndex = 10;
-            this.btnClose.UseVisualStyleBackColor = false;
-            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // label2
             // 
@@ -267,10 +250,10 @@
             this.btnAddNewPerson.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAddNewPerson.ForeColor = System.Drawing.SystemColors.AppWorkspace;
             this.btnAddNewPerson.Image = global::Project_DVLD_.Properties.Resources.AddPerson64;
-            this.btnAddNewPerson.Location = new System.Drawing.Point(1147, 219);
+            this.btnAddNewPerson.Location = new System.Drawing.Point(1147, 182);
             this.btnAddNewPerson.Name = "btnAddNewPerson";
             this.btnAddNewPerson.Size = new System.Drawing.Size(113, 63);
-            this.btnAddNewPerson.TabIndex = 12;
+            this.btnAddNewPerson.TabIndex = 2;
             this.btnAddNewPerson.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnAddNewPerson.UseVisualStyleBackColor = false;
             this.btnAddNewPerson.Click += new System.EventHandler(this.btnAddNew_Click);
@@ -322,42 +305,58 @@
             this.lbSearch.TabIndex = 18;
             this.lbSearch.Text = "Search:";
             // 
-            // pictureBox1
+            // pbUserImage
             // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::Project_DVLD_.Properties.Resources.عوضيه;
-            this.pictureBox1.Location = new System.Drawing.Point(8, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(120, 106);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 14;
-            this.pictureBox1.TabStop = false;
+            this.pbUserImage.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pbUserImage.BackColor = System.Drawing.Color.Transparent;
+            this.pbUserImage.Location = new System.Drawing.Point(8, 12);
+            this.pbUserImage.Name = "pbUserImage";
+            this.pbUserImage.Size = new System.Drawing.Size(120, 106);
+            this.pbUserImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbUserImage.TabIndex = 14;
+            this.pbUserImage.TabStop = false;
             // 
-            // label3
+            // lbUserName
             // 
-            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(4, 121);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(117, 24);
-            this.label3.TabIndex = 15;
-            this.label3.Text = "User: عوضيه";
+            this.lbUserName.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.lbUserName.AutoSize = true;
+            this.lbUserName.BackColor = System.Drawing.Color.Transparent;
+            this.lbUserName.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbUserName.ForeColor = System.Drawing.Color.White;
+            this.lbUserName.Location = new System.Drawing.Point(34, 121);
+            this.lbUserName.Name = "lbUserName";
+            this.lbUserName.Size = new System.Drawing.Size(22, 24);
+            this.lbUserName.TabIndex = 15;
+            this.lbUserName.Text = "?";
             // 
-            // lblPeopleCount
+            // lbRecords
             // 
-            this.lblPeopleCount.AutoSize = true;
-            this.lblPeopleCount.BackColor = System.Drawing.Color.Transparent;
-            this.lblPeopleCount.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPeopleCount.ForeColor = System.Drawing.Color.White;
-            this.lblPeopleCount.Location = new System.Drawing.Point(12, 719);
-            this.lblPeopleCount.Name = "lblPeopleCount";
-            this.lblPeopleCount.Size = new System.Drawing.Size(91, 23);
-            this.lblPeopleCount.TabIndex = 19;
-            this.lblPeopleCount.Text = "Records#";
+            this.lbRecords.AutoSize = true;
+            this.lbRecords.BackColor = System.Drawing.Color.Transparent;
+            this.lbRecords.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbRecords.ForeColor = System.Drawing.Color.White;
+            this.lbRecords.Location = new System.Drawing.Point(12, 719);
+            this.lbRecords.Name = "lbRecords";
+            this.lbRecords.Size = new System.Drawing.Size(91, 23);
+            this.lbRecords.TabIndex = 19;
+            this.lbRecords.Text = "Records#";
+            // 
+            // cbGendor
+            // 
+            this.cbGendor.BackColor = System.Drawing.Color.Silver;
+            this.cbGendor.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbGendor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cbGendor.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbGendor.FormattingEnabled = true;
+            this.cbGendor.Items.AddRange(new object[] {
+            "Male",
+            "Female"});
+            this.cbGendor.Location = new System.Drawing.Point(514, 219);
+            this.cbGendor.Name = "cbGendor";
+            this.cbGendor.Size = new System.Drawing.Size(416, 31);
+            this.cbGendor.TabIndex = 1;
+            this.cbGendor.Visible = false;
+            this.cbGendor.SelectedIndexChanged += new System.EventHandler(this.cbGendor_SelectedIndexChanged);
             // 
             // frmPeopleList
             // 
@@ -367,29 +366,29 @@
             this.BackgroundImage = global::Project_DVLD_.Properties.Resources._13_aswasdas1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1272, 750);
-            this.Controls.Add(this.lblPeopleCount);
+            this.Controls.Add(this.cbGendor);
+            this.Controls.Add(this.lbRecords);
             this.Controls.Add(this.lbSearch);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.lbUserName);
+            this.Controls.Add(this.pbUserImage);
             this.Controls.Add(this.btnAddNewPerson);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.btnClose);
             this.Controls.Add(this.tbSearch);
             this.Controls.Add(this.cbFilterBy);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dgvPeopleList);
             this.DoubleBuffered = true;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmPeopleList";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "People";
-            this.Load += new System.EventHandler(this.frmManagePeople_Load);
+            this.Load += new System.EventHandler(this.frmPeopleList_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvPeopleList)).EndInit();
             this.contextMenuStrip1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbUserImage)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -400,15 +399,14 @@
         private System.Windows.Forms.DataGridView dgvPeopleList;
         private System.Windows.Forms.ComboBox cbFilterBy;
         private System.Windows.Forms.TextBox tbSearch;
-        private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnAddNewPerson;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label lbSearch;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.PictureBox pbUserImage;
+        private System.Windows.Forms.Label lbUserName;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.ToolStripMenuItem showDetailsToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripMenuItem2;
@@ -418,6 +416,7 @@
         private System.Windows.Forms.ToolStripSeparator toolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem sendEmailToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem phoneCallToolStripMenuItem;
-        private System.Windows.Forms.Label lblPeopleCount;
+        private System.Windows.Forms.Label lbRecords;
+        private System.Windows.Forms.ComboBox cbGendor;
     }
 }

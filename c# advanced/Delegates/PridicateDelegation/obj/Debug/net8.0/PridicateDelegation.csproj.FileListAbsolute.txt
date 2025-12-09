@@ -1,0 +1,15 @@
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\PridicateDelegation\bin\Debug\net8.0\PridicateDelegation.exe
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\PridicateDelegation\bin\Debug\net8.0\PridicateDelegation.deps.json
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\PridicateDelegation\bin\Debug\net8.0\PridicateDelegation.runtimeconfig.json
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\PridicateDelegation\bin\Debug\net8.0\PridicateDelegation.dll
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\PridicateDelegation\bin\Debug\net8.0\PridicateDelegation.pdb
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\PridicateDelegation\obj\Debug\net8.0\PridicateDelegation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\PridicateDelegation\obj\Debug\net8.0\PridicateDelegation.AssemblyInfoInputs.cache
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\PridicateDelegation\obj\Debug\net8.0\PridicateDelegation.AssemblyInfo.cs
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\PridicateDelegation\obj\Debug\net8.0\PridicateDelegation.csproj.CoreCompileInputs.cache
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\PridicateDelegation\obj\Debug\net8.0\PridicateDelegation.sourcelink.json
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\PridicateDelegation\obj\Debug\net8.0\PridicateDelegation.dll
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\PridicateDelegation\obj\Debug\net8.0\refint\PridicateDelegation.dll
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\PridicateDelegation\obj\Debug\net8.0\PridicateDelegation.pdb
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\PridicateDelegation\obj\Debug\net8.0\PridicateDelegation.genruntimeconfig.cache
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\PridicateDelegation\obj\Debug\net8.0\ref\PridicateDelegation.dll

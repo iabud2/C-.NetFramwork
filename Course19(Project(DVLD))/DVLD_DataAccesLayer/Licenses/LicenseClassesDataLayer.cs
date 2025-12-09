@@ -17,7 +17,7 @@ namespace DVLD_DataAccesLayer.Licenses
         {
             bool isFound = false;
             SqlConnection Connection = new SqlConnection(DVLD_DataAccessSettings.ConnectionString);
-            string Query = @"SELECT * FROM LicenseClasses;
+            string Query = @"SELECT * FROM LicenseClasses
                                     WHERE ClassID = @ClassID;";
             SqlCommand command = new SqlCommand(Query, Connection);
             command.Parameters.AddWithValue("@ClassID", ClassID);

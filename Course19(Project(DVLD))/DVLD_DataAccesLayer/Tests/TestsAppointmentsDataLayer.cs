@@ -19,7 +19,7 @@ namespace DVLD_DataAccesLayer.Tests
         {
             bool isFound = false;
             SqlConnection Connection = new SqlConnection(DVLD_DataAccessSettings.ConnectionString);
-            string Query = @"SELECT * FROM TestAppointments
+            string Query = @"SELECT * FROM TestsAppointments
                                         WHERE AppointmentID = @AppointmentID;";
             SqlCommand Command = new SqlCommand(Query, Connection);
             Command.Parameters.AddWithValue("@AppointmentID", AppointmentID);
@@ -31,7 +31,7 @@ namespace DVLD_DataAccesLayer.Tests
                 if (reader.Read())
                 {
                     isFound = true;
-                    LDLA_ID = (int)reader["TestAppointmentID"];
+                    LDLA_ID = (int)reader["LocalDrivingLicenseApplicationID"];
                     TestTypeID = (int)reader["TestTypeID"];
                     AppointmentDate = (DateTime)reader["AppointmentDate"];
                     PaidFees = Convert.ToSingle(reader["PaidFees"]);
@@ -50,6 +50,68 @@ namespace DVLD_DataAccesLayer.Tests
             }
 
             return isFound;
+        }
+
+        static public DataTable GetAppointmentsListFor_LDLA(int LDLA_ID)
+        {
+            DataTable dt = new DataTable();
+            SqlConnection Connection = new SqlConnection(DVLD_DataAccessSettings.ConnectionString);
+            string Query = @"SELECT * FROM TestsAppointments
+                                WHERE LocalDrivingLicenseApplicationID = @LDLA_ID;";
+            SqlCommand Command = new SqlCommand(Query, Connection);
+            Command.Parameters.AddWithValue("@LDLA_ID", LDLA_ID);
+
+            try
+            {
+                Connection.Open();
+                SqlDataReader reader = Command.ExecuteReader();
+                if(reader.HasRows)
+                {
+                    dt.Load(reader);
+                }
+                reader.Close();
+            }
+            catch (Exception e)
+            {
+                //Handle you exceptions here.
+            }
+            finally
+            {
+                Connection.Close();
+            }
+            return dt;
+        }
+
+        static public DataTable GetAppointmentListPerTestTypeForLDLA(int LDLA_ID, int TestTypeID)
+        {
+            DataTable dt = new DataTable();
+            SqlConnection Connection = new SqlConnection(DVLD_DataAccessSettings.ConnectionString);
+            string Query = @"SELECT AppointmentID, AppointmentDate, PaidFees, IsLocked FROM TestsAppointments
+                             WHERE TestTypeID = @TestTypeID AND LocalDrivingLicenseApplicationID = @LDLA_ID
+                             ORDER BY TestTypeID desc;";
+            SqlCommand Command = new SqlCommand(Query, Connection);
+            Command.Parameters.AddWithValue("@TestTypeID", TestTypeID);
+            Command.Parameters.AddWithValue("@LDLA_ID", LDLA_ID);
+
+            try
+            {
+                Connection.Open();
+                SqlDataReader reader = Command.ExecuteReader();
+                if(reader.HasRows)
+                {
+                    dt.Load(reader);
+                }
+                reader.Close();
+            }
+            catch (Exception e)
+            {
+                //Tybe Exception Here.
+            }
+            finally
+            {
+                Connection.Close();        
+            }
+            return dt;
         }
 
         public static DataTable ListAllAppointments()
@@ -87,9 +149,9 @@ namespace DVLD_DataAccesLayer.Tests
             int NewID = -1;
             SqlConnection Connection = new SqlConnection(DVLD_DataAccessSettings.ConnectionString);
             string Query = @"INSERT INTO TestsAppointments
-                            (LocalDrivingLicenseApplicationID, TestTypeID, AppointmentDate, PaidFeed, IsLocked, CreatedByUserID)
+                            (LocalDrivingLicenseApplicationID, TestTypeID, AppointmentDate, PaidFees, IsLocked, CreatedByUserID)
                             VALUES
-                            (@LDLA_ID, @TestTypeID, @AppintmentDate, @PaidFeed, @IsLocked, @CreatedBy);
+                            (@LDLA_ID, @TestTypeID, @AppintmentDate, @PaidFees, @IsLocked, @CreatedBy);
                             
                             SELECT SCOPE_IDENTITY();";
 
@@ -97,7 +159,7 @@ namespace DVLD_DataAccesLayer.Tests
             Command.Parameters.AddWithValue("@LDLA_ID", LDLA_ID);
             Command.Parameters.AddWithValue("@TestTypeID", TestTypeID);
             Command.Parameters.AddWithValue("@AppintmentDate", AppointmentDate);
-            Command.Parameters.AddWithValue("@PaidFeed", PaidFees);
+            Command.Parameters.AddWithValue("@PaidFees", PaidFees);
             Command.Parameters.AddWithValue("@IsLocked", IsLocked);
             Command.Parameters.AddWithValue("@CreatedBy", CreatedBy);
 
@@ -136,6 +198,7 @@ namespace DVLD_DataAccesLayer.Tests
                              WHERE AppointmentID = @AppintmentID;";
 
             SqlCommand Command = new SqlCommand(Query, Connection);
+            Command.Parameters.AddWithValue("@LDLA_ID", LDLA_ID);
             Command.Parameters.AddWithValue("@AppintmentID", AppintmentID);
             Command.Parameters.AddWithValue("@TestTypeID", TestTypeID);
             Command.Parameters.AddWithValue("@AppointmentDate", AppointmentDate);
@@ -186,5 +249,31 @@ namespace DVLD_DataAccesLayer.Tests
             return (EffectedRows > 0);
         }
 
+        static public bool LockAppointment(int AppointmentID)
+        {
+            int EffectedRows = -1;
+            SqlConnection Connection = new SqlConnection(DVLD_DataAccessSettings.ConnectionString);
+            string Query = @"UPDATE TestsAppointments
+                              SET IsLocked = 1
+                              WHERE AppointmentID = @Appointment_ID;";
+            SqlCommand Command = new SqlCommand(Query, Connection);
+            Command.Parameters.AddWithValue("@Appointment_ID", AppointmentID);
+
+            try
+            {
+                Connection.Open();
+                EffectedRows = Command.ExecuteNonQuery();
+            }
+            catch (Exception e)
+            {
+                //Tybe Exception Here.            }
+            }
+            finally 
+            {
+                Connection.Close(); 
+            }
+
+            return (EffectedRows > 0);
+        }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using DVLD_BusinessLayer;
+using DVLD_BusinessLayer.GeneralClasses;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -18,14 +19,14 @@ namespace Project_DVLD_.Users
             InitializeComponent();
         }
 
-        static private DataTable _dtUsers;
+        private DataTable _dtUsers;
 
 
         private void _RefreshUsersTable()
         {
             _dtUsers = clsUsers.ListAllUsers();
             dgvUsersList.DataSource = _dtUsers;
-            lblRecordsCount.Text = _dtUsers.Rows.Count.ToString() + " Record(s)";
+            lblRecordsCount.Text = _dtUsers.Rows.Count.ToString();
 
             dgvUsersList.Columns[0].HeaderText = "User ID";
             dgvUsersList.Columns[0].Width = 110;
@@ -43,10 +44,7 @@ namespace Project_DVLD_.Users
             dgvUsersList.Columns[4].Width = 300;
         }
 
-        private void btnClose_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
+
 
         private void frmListUsers_Load(object sender, EventArgs e)
         {
@@ -55,6 +53,7 @@ namespace Project_DVLD_.Users
 
         private void cbFilterBy_SelectedIndexChanged(object sender, EventArgs e)
         {
+            
             BoxesVisibilityStatus();
         }
 
@@ -89,17 +88,21 @@ namespace Project_DVLD_.Users
             {
                 _dtUsers.DefaultView.RowFilter = "";
                 lblRecordsCount.Text = dgvUsersList.Rows.Count.ToString();
+
                 return;
             }
 
             if (Filter != "FullName" && Filter != "Username")
             {
                 _dtUsers.DefaultView.RowFilter = string.Format("[{0}] = {1}", Filter, tbSearch.Text.Trim());
+                lblRecordsCount.Text = dgvUsersList.Rows.Count.ToString();
+
                 tbSearch.Focus();
             }
             else
             {
                 _dtUsers.DefaultView.RowFilter = string.Format("[{0}] LIKE '{1}%'", Filter, tbSearch.Text.Trim());
+                lblRecordsCount.Text = dgvUsersList.Rows.Count.ToString();
                 tbSearch.Focus();
             }
 
@@ -111,24 +114,33 @@ namespace Project_DVLD_.Users
         {
             if (cbFilterBy.Text != "None" && cbFilterBy.Text != "IsActive")
             {
+                _dtUsers.DefaultView.RowFilter = "";
+                lblRecordsCount.Text = dgvUsersList.Rows.Count.ToString();
+
                 tbSearch.Visible = true;
                 tbSearch.Text = string.Empty;
                 tbSearch.Focus();
             }
             else
             {
+                _dtUsers.DefaultView.RowFilter = "";
+                lblRecordsCount.Text = dgvUsersList.Rows.Count.ToString();
                 tbSearch.Text = string.Empty;
                 tbSearch.Visible = false;
             }
 
             if (cbFilterBy.Text == "IsActive")
             {
+                _dtUsers.DefaultView.RowFilter = "";
+                lblRecordsCount.Text = dgvUsersList.Rows.Count.ToString();
                 cbActivateStatus.Visible = true;
                 cbActivateStatus.Focus();
                 cbActivateStatus.SelectedIndex = 0;
             }
             else
             {
+                _dtUsers.DefaultView.RowFilter = "";
+                lblRecordsCount.Text = dgvUsersList.Rows.Count.ToString();
                 cbActivateStatus.Visible = false;
             }
         }
@@ -199,6 +211,13 @@ namespace Project_DVLD_.Users
         private void deleteToolStripMenuItem_Click(object sender, EventArgs e)
         {
             int SelectedUserID = (int)dgvUsersList.CurrentRow.Cells[0].Value;
+
+            if(SelectedUserID == clsGlobal.CurrentUserLogedin.UserID)
+            {
+                MessageBox.Show("You Can't Delete The Current Logged In User!", "Delete User", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
             if ((MessageBox.Show("Are you sure you want to delete User with User ID: " + SelectedUserID + " ?", "Delete User", MessageBoxButtons.OKCancel, MessageBoxIcon.Question)) == DialogResult.OK)
             {
                 if (clsUsers.DeleteUser(SelectedUserID))
@@ -230,9 +249,16 @@ namespace Project_DVLD_.Users
 
         }
 
-        private void dgvUsersList_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
 
+
+        private void sendEmailToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Not Implemented Yet!", "Not Implemented", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void phoneCallToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Not Implemented Yet!", "Not Implemented", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }

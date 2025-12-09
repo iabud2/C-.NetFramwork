@@ -1,9 +1,9 @@
+C:\Users\iabud\Desktop\me\c#\Course19(Project(DVLD))\DVLD_BusinessLayer\obj\Debug\DVLD_BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\iabud\Desktop\me\c#\Course19(Project(DVLD))\DVLD_BusinessLayer\obj\Debug\DVLD_BusinessLayer.csproj.CoreCompileInputs.cache
 C:\Users\iabud\Desktop\me\c#\Course19(Project(DVLD))\DVLD_BusinessLayer\bin\Debug\DVLD_BusinessLayer.dll
 C:\Users\iabud\Desktop\me\c#\Course19(Project(DVLD))\DVLD_BusinessLayer\bin\Debug\DVLD_BusinessLayer.pdb
 C:\Users\iabud\Desktop\me\c#\Course19(Project(DVLD))\DVLD_BusinessLayer\bin\Debug\DVLD_DataAccesLayer.dll
 C:\Users\iabud\Desktop\me\c#\Course19(Project(DVLD))\DVLD_BusinessLayer\bin\Debug\DVLD_DataAccesLayer.pdb
-C:\Users\iabud\Desktop\me\c#\Course19(Project(DVLD))\DVLD_BusinessLayer\obj\Debug\DVLD_BusinessLayer.csproj.AssemblyReference.cache
-C:\Users\iabud\Desktop\me\c#\Course19(Project(DVLD))\DVLD_BusinessLayer\obj\Debug\DVLD_BusinessLayer.csproj.CoreCompileInputs.cache
 C:\Users\iabud\Desktop\me\c#\Course19(Project(DVLD))\DVLD_BusinessLayer\obj\Debug\DVLD_Bus.693E2707.Up2Date
 C:\Users\iabud\Desktop\me\c#\Course19(Project(DVLD))\DVLD_BusinessLayer\obj\Debug\DVLD_BusinessLayer.dll
 C:\Users\iabud\Desktop\me\c#\Course19(Project(DVLD))\DVLD_BusinessLayer\obj\Debug\DVLD_BusinessLayer.pdb

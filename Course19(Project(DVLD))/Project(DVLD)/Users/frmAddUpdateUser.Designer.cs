@@ -51,7 +51,6 @@
             this.lbUserID = new System.Windows.Forms.Label();
             this.btnSave = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.btnClose = new System.Windows.Forms.Button();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.tcUserManagment.SuspendLayout();
             this.tpPersonInfo.SuspendLayout();
@@ -68,12 +67,12 @@
             this.lbFormTitle.AutoSize = true;
             this.lbFormTitle.BackColor = System.Drawing.Color.Transparent;
             this.lbFormTitle.Font = new System.Drawing.Font("Tahoma", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbFormTitle.ForeColor = System.Drawing.Color.Maroon;
-            this.lbFormTitle.Location = new System.Drawing.Point(447, 9);
+            this.lbFormTitle.ForeColor = System.Drawing.Color.Black;
+            this.lbFormTitle.Location = new System.Drawing.Point(450, 20);
             this.lbFormTitle.Name = "lbFormTitle";
-            this.lbFormTitle.Size = new System.Drawing.Size(376, 58);
+            this.lbFormTitle.Size = new System.Drawing.Size(325, 58);
             this.lbFormTitle.TabIndex = 0;
-            this.lbFormTitle.Text = "Application Type";
+            this.lbFormTitle.Text = "Add New User";
             // 
             // tcUserManagment
             // 
@@ -85,7 +84,7 @@
             this.tcUserManagment.Name = "tcUserManagment";
             this.tcUserManagment.SelectedIndex = 0;
             this.tcUserManagment.Size = new System.Drawing.Size(1245, 504);
-            this.tcUserManagment.TabIndex = 11;
+            this.tcUserManagment.TabIndex = 0;
             // 
             // tpPersonInfo
             // 
@@ -109,7 +108,7 @@
             this.btnNext.Location = new System.Drawing.Point(1121, 424);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(85, 36);
-            this.btnNext.TabIndex = 12;
+            this.btnNext.TabIndex = 1;
             this.btnNext.Text = "Next";
             this.btnNext.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnNext.UseVisualStyleBackColor = false;
@@ -117,6 +116,8 @@
             // 
             // ucFindPerson1
             // 
+            this.ucFindPerson1.AddNewEnabled = true;
+            this.ucFindPerson1.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ucFindPerson1.FilterEnabled = true;
             this.ucFindPerson1.Location = new System.Drawing.Point(7, 0);
             this.ucFindPerson1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -157,7 +158,7 @@
             this.cbIsActive.Location = new System.Drawing.Point(316, 285);
             this.cbIsActive.Name = "cbIsActive";
             this.cbIsActive.Size = new System.Drawing.Size(89, 23);
-            this.cbIsActive.TabIndex = 13;
+            this.cbIsActive.TabIndex = 5;
             this.cbIsActive.Text = "Is Active";
             this.cbIsActive.UseVisualStyleBackColor = true;
             // 
@@ -190,7 +191,7 @@
             this.txtConfirmPassword.Name = "txtConfirmPassword";
             this.txtConfirmPassword.PasswordChar = '*';
             this.txtConfirmPassword.Size = new System.Drawing.Size(299, 30);
-            this.txtConfirmPassword.TabIndex = 9;
+            this.txtConfirmPassword.TabIndex = 4;
             this.txtConfirmPassword.Validating += new System.ComponentModel.CancelEventHandler(this.txtConfirmPassword_Validating);
             // 
             // txtPassword
@@ -200,7 +201,7 @@
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(299, 30);
-            this.txtPassword.TabIndex = 8;
+            this.txtPassword.TabIndex = 3;
             this.txtPassword.Validating += new System.ComponentModel.CancelEventHandler(this.txtPassword_Validating);
             // 
             // txtUserName
@@ -209,7 +210,7 @@
             this.txtUserName.Location = new System.Drawing.Point(316, 112);
             this.txtUserName.Name = "txtUserName";
             this.txtUserName.Size = new System.Drawing.Size(299, 30);
-            this.txtUserName.TabIndex = 7;
+            this.txtUserName.TabIndex = 2;
             this.txtUserName.Validating += new System.ComponentModel.CancelEventHandler(this.txtUserName_Validating);
             // 
             // pictureBox2
@@ -300,7 +301,7 @@
             this.btnSave.Location = new System.Drawing.Point(1166, 613);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(85, 43);
-            this.btnSave.TabIndex = 16;
+            this.btnSave.TabIndex = 7;
             this.btnSave.Text = "       Save";
             this.btnSave.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnSave.UseVisualStyleBackColor = false;
@@ -322,28 +323,10 @@
             this.button1.Location = new System.Drawing.Point(1067, 613);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(93, 43);
-            this.button1.TabIndex = 15;
+            this.button1.TabIndex = 6;
             this.button1.Text = "       Close";
             this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button1.UseVisualStyleBackColor = false;
-            // 
-            // btnClose
-            // 
-            this.btnClose.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.btnClose.BackColor = System.Drawing.Color.Transparent;
-            this.btnClose.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnClose.BackgroundImage")));
-            this.btnClose.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnClose.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btnClose.FlatAppearance.BorderSize = 0;
-            this.btnClose.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DimGray;
-            this.btnClose.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
-            this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClose.Location = new System.Drawing.Point(1217, 12);
-            this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(42, 42);
-            this.btnClose.TabIndex = 10;
-            this.btnClose.UseVisualStyleBackColor = false;
-            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // errorProvider1
             // 
@@ -353,17 +336,17 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DarkGray;
+            this.BackColor = System.Drawing.Color.Gainsboro;
             this.ClientSize = new System.Drawing.Size(1271, 669);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.tcUserManagment);
-            this.Controls.Add(this.btnClose);
             this.Controls.Add(this.lbFormTitle);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.DoubleBuffered = true;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frmAddUpdateUser";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "frmAddUpdateUser";
+            this.Text = "Add ";
             this.Load += new System.EventHandler(this.frmAddUpdateUser_Load);
             this.tcUserManagment.ResumeLayout(false);
             this.tpPersonInfo.ResumeLayout(false);
@@ -382,7 +365,6 @@
         #endregion
 
         private System.Windows.Forms.Label lbFormTitle;
-        private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.TabControl tcUserManagment;
         private System.Windows.Forms.TabPage tpPersonInfo;
         private System.Windows.Forms.TabPage tpLoginInfo;

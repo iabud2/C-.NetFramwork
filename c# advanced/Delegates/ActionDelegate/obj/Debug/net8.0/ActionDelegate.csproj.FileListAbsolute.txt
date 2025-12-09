@@ -1,0 +1,15 @@
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\ActionDelegate\bin\Debug\net8.0\ActionDelegate.exe
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\ActionDelegate\bin\Debug\net8.0\ActionDelegate.deps.json
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\ActionDelegate\bin\Debug\net8.0\ActionDelegate.runtimeconfig.json
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\ActionDelegate\bin\Debug\net8.0\ActionDelegate.dll
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\ActionDelegate\bin\Debug\net8.0\ActionDelegate.pdb
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\ActionDelegate\obj\Debug\net8.0\ActionDelegate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\ActionDelegate\obj\Debug\net8.0\ActionDelegate.AssemblyInfoInputs.cache
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\ActionDelegate\obj\Debug\net8.0\ActionDelegate.AssemblyInfo.cs
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\ActionDelegate\obj\Debug\net8.0\ActionDelegate.csproj.CoreCompileInputs.cache
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\ActionDelegate\obj\Debug\net8.0\ActionDelegate.sourcelink.json
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\ActionDelegate\obj\Debug\net8.0\ActionDelegate.dll
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\ActionDelegate\obj\Debug\net8.0\refint\ActionDelegate.dll
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\ActionDelegate\obj\Debug\net8.0\ActionDelegate.pdb
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\ActionDelegate\obj\Debug\net8.0\ActionDelegate.genruntimeconfig.cache
+C:\Users\iabud\Desktop\me\c#\c# advanced\2\ActionDelegate\obj\Debug\net8.0\ref\ActionDelegate.dll

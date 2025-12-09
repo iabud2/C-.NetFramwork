@@ -1,0 +1,15 @@
+C:\Users\iabud\Desktop\me\c#\c# advanced\Serialization\bin\Debug\net8.0\Serialization.exe
+C:\Users\iabud\Desktop\me\c#\c# advanced\Serialization\bin\Debug\net8.0\Serialization.deps.json
+C:\Users\iabud\Desktop\me\c#\c# advanced\Serialization\bin\Debug\net8.0\Serialization.runtimeconfig.json
+C:\Users\iabud\Desktop\me\c#\c# advanced\Serialization\bin\Debug\net8.0\Serialization.dll
+C:\Users\iabud\Desktop\me\c#\c# advanced\Serialization\bin\Debug\net8.0\Serialization.pdb
+C:\Users\iabud\Desktop\me\c#\c# advanced\Serialization\obj\Debug\net8.0\Serialization.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iabud\Desktop\me\c#\c# advanced\Serialization\obj\Debug\net8.0\Serialization.AssemblyInfoInputs.cache
+C:\Users\iabud\Desktop\me\c#\c# advanced\Serialization\obj\Debug\net8.0\Serialization.AssemblyInfo.cs
+C:\Users\iabud\Desktop\me\c#\c# advanced\Serialization\obj\Debug\net8.0\Serialization.csproj.CoreCompileInputs.cache
+C:\Users\iabud\Desktop\me\c#\c# advanced\Serialization\obj\Debug\net8.0\Serialization.sourcelink.json
+C:\Users\iabud\Desktop\me\c#\c# advanced\Serialization\obj\Debug\net8.0\Serialization.dll
+C:\Users\iabud\Desktop\me\c#\c# advanced\Serialization\obj\Debug\net8.0\refint\Serialization.dll
+C:\Users\iabud\Desktop\me\c#\c# advanced\Serialization\obj\Debug\net8.0\Serialization.pdb
+C:\Users\iabud\Desktop\me\c#\c# advanced\Serialization\obj\Debug\net8.0\Serialization.genruntimeconfig.cache
+C:\Users\iabud\Desktop\me\c#\c# advanced\Serialization\obj\Debug\net8.0\ref\Serialization.dll

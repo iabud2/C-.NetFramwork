@@ -1,0 +1,15 @@
+C:\Users\iabud\Desktop\me\c#\c# advanced\Attributes\obj\Debug\net8.0\Attributes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iabud\Desktop\me\c#\c# advanced\Attributes\obj\Debug\net8.0\Attributes.AssemblyInfoInputs.cache
+C:\Users\iabud\Desktop\me\c#\c# advanced\Attributes\obj\Debug\net8.0\Attributes.AssemblyInfo.cs
+C:\Users\iabud\Desktop\me\c#\c# advanced\Attributes\obj\Debug\net8.0\Attributes.csproj.CoreCompileInputs.cache
+C:\Users\iabud\Desktop\me\c#\c# advanced\Attributes\obj\Debug\net8.0\Attributes.sourcelink.json
+C:\Users\iabud\Desktop\me\c#\c# advanced\Attributes\bin\Debug\net8.0\Attributes.exe
+C:\Users\iabud\Desktop\me\c#\c# advanced\Attributes\bin\Debug\net8.0\Attributes.deps.json
+C:\Users\iabud\Desktop\me\c#\c# advanced\Attributes\bin\Debug\net8.0\Attributes.runtimeconfig.json
+C:\Users\iabud\Desktop\me\c#\c# advanced\Attributes\bin\Debug\net8.0\Attributes.dll
+C:\Users\iabud\Desktop\me\c#\c# advanced\Attributes\bin\Debug\net8.0\Attributes.pdb
+C:\Users\iabud\Desktop\me\c#\c# advanced\Attributes\obj\Debug\net8.0\Attributes.dll
+C:\Users\iabud\Desktop\me\c#\c# advanced\Attributes\obj\Debug\net8.0\refint\Attributes.dll
+C:\Users\iabud\Desktop\me\c#\c# advanced\Attributes\obj\Debug\net8.0\Attributes.pdb
+C:\Users\iabud\Desktop\me\c#\c# advanced\Attributes\obj\Debug\net8.0\Attributes.genruntimeconfig.cache
+C:\Users\iabud\Desktop\me\c#\c# advanced\Attributes\obj\Debug\net8.0\ref\Attributes.dll

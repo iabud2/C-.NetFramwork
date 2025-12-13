@@ -1,0 +1,15 @@
+C:\Users\iabud\Desktop\me\c#\c# advanced\Reflection\obj\Debug\net8.0\Reflection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iabud\Desktop\me\c#\c# advanced\Reflection\obj\Debug\net8.0\Reflection.AssemblyInfoInputs.cache
+C:\Users\iabud\Desktop\me\c#\c# advanced\Reflection\obj\Debug\net8.0\Reflection.AssemblyInfo.cs
+C:\Users\iabud\Desktop\me\c#\c# advanced\Reflection\obj\Debug\net8.0\Reflection.csproj.CoreCompileInputs.cache
+C:\Users\iabud\Desktop\me\c#\c# advanced\Reflection\obj\Debug\net8.0\Reflection.sourcelink.json
+C:\Users\iabud\Desktop\me\c#\c# advanced\Reflection\bin\Debug\net8.0\Reflection.exe
+C:\Users\iabud\Desktop\me\c#\c# advanced\Reflection\bin\Debug\net8.0\Reflection.deps.json
+C:\Users\iabud\Desktop\me\c#\c# advanced\Reflection\bin\Debug\net8.0\Reflection.runtimeconfig.json
+C:\Users\iabud\Desktop\me\c#\c# advanced\Reflection\bin\Debug\net8.0\Reflection.dll
+C:\Users\iabud\Desktop\me\c#\c# advanced\Reflection\bin\Debug\net8.0\Reflection.pdb
+C:\Users\iabud\Desktop\me\c#\c# advanced\Reflection\obj\Debug\net8.0\Reflection.dll
+C:\Users\iabud\Desktop\me\c#\c# advanced\Reflection\obj\Debug\net8.0\refint\Reflection.dll
+C:\Users\iabud\Desktop\me\c#\c# advanced\Reflection\obj\Debug\net8.0\Reflection.pdb
+C:\Users\iabud\Desktop\me\c#\c# advanced\Reflection\obj\Debug\net8.0\Reflection.genruntimeconfig.cache
+C:\Users\iabud\Desktop\me\c#\c# advanced\Reflection\obj\Debug\net8.0\ref\Reflection.dll

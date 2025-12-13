@@ -1,0 +1,15 @@
+C:\Users\iabud\Desktop\me\c#\c# advanced\WindowsRegistry\bin\Debug\net8.0\WindowsRegistry.exe
+C:\Users\iabud\Desktop\me\c#\c# advanced\WindowsRegistry\bin\Debug\net8.0\WindowsRegistry.deps.json
+C:\Users\iabud\Desktop\me\c#\c# advanced\WindowsRegistry\bin\Debug\net8.0\WindowsRegistry.runtimeconfig.json
+C:\Users\iabud\Desktop\me\c#\c# advanced\WindowsRegistry\bin\Debug\net8.0\WindowsRegistry.dll
+C:\Users\iabud\Desktop\me\c#\c# advanced\WindowsRegistry\bin\Debug\net8.0\WindowsRegistry.pdb
+C:\Users\iabud\Desktop\me\c#\c# advanced\WindowsRegistry\obj\Debug\net8.0\WindowsRegistry.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iabud\Desktop\me\c#\c# advanced\WindowsRegistry\obj\Debug\net8.0\WindowsRegistry.AssemblyInfoInputs.cache
+C:\Users\iabud\Desktop\me\c#\c# advanced\WindowsRegistry\obj\Debug\net8.0\WindowsRegistry.AssemblyInfo.cs
+C:\Users\iabud\Desktop\me\c#\c# advanced\WindowsRegistry\obj\Debug\net8.0\WindowsRegistry.csproj.CoreCompileInputs.cache
+C:\Users\iabud\Desktop\me\c#\c# advanced\WindowsRegistry\obj\Debug\net8.0\WindowsRegistry.sourcelink.json
+C:\Users\iabud\Desktop\me\c#\c# advanced\WindowsRegistry\obj\Debug\net8.0\WindowsRegistry.dll
+C:\Users\iabud\Desktop\me\c#\c# advanced\WindowsRegistry\obj\Debug\net8.0\refint\WindowsRegistry.dll
+C:\Users\iabud\Desktop\me\c#\c# advanced\WindowsRegistry\obj\Debug\net8.0\WindowsRegistry.pdb
+C:\Users\iabud\Desktop\me\c#\c# advanced\WindowsRegistry\obj\Debug\net8.0\WindowsRegistry.genruntimeconfig.cache
+C:\Users\iabud\Desktop\me\c#\c# advanced\WindowsRegistry\obj\Debug\net8.0\ref\WindowsRegistry.dll

@@ -1,0 +1,15 @@
+C:\Users\iabud\Desktop\me\c#\c# advanced\parallelPrograming\bin\Debug\net8.0\parallelPrograming.exe
+C:\Users\iabud\Desktop\me\c#\c# advanced\parallelPrograming\bin\Debug\net8.0\parallelPrograming.deps.json
+C:\Users\iabud\Desktop\me\c#\c# advanced\parallelPrograming\bin\Debug\net8.0\parallelPrograming.runtimeconfig.json
+C:\Users\iabud\Desktop\me\c#\c# advanced\parallelPrograming\bin\Debug\net8.0\parallelPrograming.dll
+C:\Users\iabud\Desktop\me\c#\c# advanced\parallelPrograming\bin\Debug\net8.0\parallelPrograming.pdb
+C:\Users\iabud\Desktop\me\c#\c# advanced\parallelPrograming\obj\Debug\net8.0\parallelPrograming.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iabud\Desktop\me\c#\c# advanced\parallelPrograming\obj\Debug\net8.0\parallelPrograming.AssemblyInfoInputs.cache
+C:\Users\iabud\Desktop\me\c#\c# advanced\parallelPrograming\obj\Debug\net8.0\parallelPrograming.AssemblyInfo.cs
+C:\Users\iabud\Desktop\me\c#\c# advanced\parallelPrograming\obj\Debug\net8.0\parallelPrograming.csproj.CoreCompileInputs.cache
+C:\Users\iabud\Desktop\me\c#\c# advanced\parallelPrograming\obj\Debug\net8.0\parallelPrograming.sourcelink.json
+C:\Users\iabud\Desktop\me\c#\c# advanced\parallelPrograming\obj\Debug\net8.0\parallelPrograming.dll
+C:\Users\iabud\Desktop\me\c#\c# advanced\parallelPrograming\obj\Debug\net8.0\refint\parallelPrograming.dll
+C:\Users\iabud\Desktop\me\c#\c# advanced\parallelPrograming\obj\Debug\net8.0\parallelPrograming.pdb
+C:\Users\iabud\Desktop\me\c#\c# advanced\parallelPrograming\obj\Debug\net8.0\parallelPrograming.genruntimeconfig.cache
+C:\Users\iabud\Desktop\me\c#\c# advanced\parallelPrograming\obj\Debug\net8.0\ref\parallelPrograming.dll

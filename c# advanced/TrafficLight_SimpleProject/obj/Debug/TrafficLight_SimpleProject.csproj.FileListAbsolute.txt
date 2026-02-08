@@ -1,0 +1,12 @@
+C:\Users\iabud\Desktop\me\c#\c# advanced\TrafficLight_SimpleProject\obj\Debug\TrafficLight_SimpleProject.csproj.AssemblyReference.cache
+C:\Users\iabud\Desktop\me\c#\c# advanced\TrafficLight_SimpleProject\obj\Debug\TrafficLight_SimpleProject.Properties.Resources.resources
+C:\Users\iabud\Desktop\me\c#\c# advanced\TrafficLight_SimpleProject\obj\Debug\TrafficLight_SimpleProject.ctrlTrafficLight.resources
+C:\Users\iabud\Desktop\me\c#\c# advanced\TrafficLight_SimpleProject\obj\Debug\TrafficLight_SimpleProject.csproj.GenerateResource.cache
+C:\Users\iabud\Desktop\me\c#\c# advanced\TrafficLight_SimpleProject\obj\Debug\TrafficLight_SimpleProject.csproj.CoreCompileInputs.cache
+C:\Users\iabud\Desktop\me\c#\c# advanced\TrafficLight_SimpleProject\bin\Debug\TrafficLight_SimpleProject.exe.config
+C:\Users\iabud\Desktop\me\c#\c# advanced\TrafficLight_SimpleProject\bin\Debug\TrafficLight_SimpleProject.exe
+C:\Users\iabud\Desktop\me\c#\c# advanced\TrafficLight_SimpleProject\bin\Debug\TrafficLight_SimpleProject.pdb
+C:\Users\iabud\Desktop\me\c#\c# advanced\TrafficLight_SimpleProject\obj\Debug\TrafficLight_SimpleProject.exe
+C:\Users\iabud\Desktop\me\c#\c# advanced\TrafficLight_SimpleProject\obj\Debug\TrafficLight_SimpleProject.pdb
+C:\Users\iabud\Desktop\me\c#\c# advanced\TrafficLight_SimpleProject\obj\Debug\TrafficLight_SimpleProject.exe.config
+C:\Users\iabud\Desktop\me\c#\c# advanced\TrafficLight_SimpleProject\obj\Debug\TrafficLight_SimpleProject.frmTest.resources

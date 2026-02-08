@@ -1,0 +1,15 @@
+C:\Users\iabud\Desktop\me\c#\c# advanced\AsynchonousProgramming\bin\Debug\net8.0\AsynchonousProgramming.exe
+C:\Users\iabud\Desktop\me\c#\c# advanced\AsynchonousProgramming\bin\Debug\net8.0\AsynchonousProgramming.deps.json
+C:\Users\iabud\Desktop\me\c#\c# advanced\AsynchonousProgramming\bin\Debug\net8.0\AsynchonousProgramming.runtimeconfig.json
+C:\Users\iabud\Desktop\me\c#\c# advanced\AsynchonousProgramming\bin\Debug\net8.0\AsynchonousProgramming.dll
+C:\Users\iabud\Desktop\me\c#\c# advanced\AsynchonousProgramming\bin\Debug\net8.0\AsynchonousProgramming.pdb
+C:\Users\iabud\Desktop\me\c#\c# advanced\AsynchonousProgramming\obj\Debug\net8.0\AsynchonousProgramming.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iabud\Desktop\me\c#\c# advanced\AsynchonousProgramming\obj\Debug\net8.0\AsynchonousProgramming.AssemblyInfoInputs.cache
+C:\Users\iabud\Desktop\me\c#\c# advanced\AsynchonousProgramming\obj\Debug\net8.0\AsynchonousProgramming.AssemblyInfo.cs
+C:\Users\iabud\Desktop\me\c#\c# advanced\AsynchonousProgramming\obj\Debug\net8.0\AsynchonousProgramming.csproj.CoreCompileInputs.cache
+C:\Users\iabud\Desktop\me\c#\c# advanced\AsynchonousProgramming\obj\Debug\net8.0\AsynchonousProgramming.sourcelink.json
+C:\Users\iabud\Desktop\me\c#\c# advanced\AsynchonousProgramming\obj\Debug\net8.0\AsynchonousProgramming.dll
+C:\Users\iabud\Desktop\me\c#\c# advanced\AsynchonousProgramming\obj\Debug\net8.0\refint\AsynchonousProgramming.dll
+C:\Users\iabud\Desktop\me\c#\c# advanced\AsynchonousProgramming\obj\Debug\net8.0\AsynchonousProgramming.pdb
+C:\Users\iabud\Desktop\me\c#\c# advanced\AsynchonousProgramming\obj\Debug\net8.0\AsynchonousProgramming.genruntimeconfig.cache
+C:\Users\iabud\Desktop\me\c#\c# advanced\AsynchonousProgramming\obj\Debug\net8.0\ref\AsynchonousProgramming.dll
